@@ -107,8 +107,17 @@
 - **Demo**: [🌐 Live Demo](https://your-demo-link.com) | [📁 Repository](https://github.com/hungle2006/project1)
 
 <div align="center">
+  <a href="https://github.com/hungle2006/project1/stargazers">
+    <img src="https://img.shields.io/github/stars/hungle2006/project1?style=for-the-badge&logo=github&color=yellow&labelColor=black" alt="GitHub Stars"/>
+  </a>
+  <a href="https://github.com/hungle2006/project1/fork">
+    <img src="https://img.shields.io/github/forks/hungle2006/project1?style=for-the-badge&logo=github&color=blue&labelColor=black" alt="GitHub Forks"/>
+  </a>
+</div>
+
+<div align="center">
   <a href="https://github.com/hungle2006/project1">
-    <img src="https://img.shields.io/badge/⭐_Give_a_star-if_you_find_this_helpful-yellow?style=for-the-badge&logo=github" alt="Give a star"/>
+    <img src="https://img.shields.io/badge/⭐_Click_to_Star-This_Project-yellow?style=for-the-badge&logo=github&logoColor=white" alt="Star this project"/>
   </a>
 </div>
 
@@ -123,8 +132,17 @@
 - **Demo**: [🌐 Live Demo](https://your-demo-link.com) | [📁 Repository](https://github.com/hungle2006/project2)
 
 <div align="center">
+  <a href="https://github.com/hungle2006/project2/stargazers">
+    <img src="https://img.shields.io/github/stars/hungle2006/project2?style=for-the-badge&logo=github&color=yellow&labelColor=black" alt="GitHub Stars"/>
+  </a>
+  <a href="https://github.com/hungle2006/project2/fork">
+    <img src="https://img.shields.io/github/forks/hungle2006/project2?style=for-the-badge&logo=github&color=blue&labelColor=black" alt="GitHub Forks"/>
+  </a>
+</div>
+
+<div align="center">
   <a href="https://github.com/hungle2006/project2">
-    <img src="https://img.shields.io/badge/⭐_Give_a_star-if_you_find_this_helpful-yellow?style=for-the-badge&logo=github" alt="Give a star"/>
+    <img src="https://img.shields.io/badge/⭐_Click_to_Star-This_Project-yellow?style=for-the-badge&logo=github&logoColor=white" alt="Star this project"/>
   </a>
 </div>
 
@@ -139,8 +157,17 @@
 - **Demo**: [🌐 Live Demo](https://your-demo-link.com) | [📁 Repository](https://github.com/hungle2006/project3)
 
 <div align="center">
+  <a href="https://github.com/hungle2006/project3/stargazers">
+    <img src="https://img.shields.io/github/stars/hungle2006/project3?style=for-the-badge&logo=github&color=yellow&labelColor=black" alt="GitHub Stars"/>
+  </a>
+  <a href="https://github.com/hungle2006/project3/fork">
+    <img src="https://img.shields.io/github/forks/hungle2006/project3?style=for-the-badge&logo=github&color=blue&labelColor=black" alt="GitHub Forks"/>
+  </a>
+</div>
+
+<div align="center">
   <a href="https://github.com/hungle2006/project3">
-    <img src="https://img.shields.io/badge/⭐_Give_a_star-if_you_find_this_helpful-yellow?style=for-the-badge&logo=github" alt="Give a star"/>
+    <img src="https://img.shields.io/badge/⭐_Click_to_Star-This_Project-yellow?style=for-the-badge&logo=github&logoColor=white" alt="Star this project"/>
   </a>
 </div>
 
