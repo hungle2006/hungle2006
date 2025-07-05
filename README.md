@@ -16,10 +16,9 @@
 - 🌱 I'm currently learning **Advanced Technologies**
 - 👯 I'm looking to collaborate on **Open Source Projects**
 - 🤔 I'm looking for help with **Complex Algorithms**
-- 💬 Ask me about **Web Development, APIs, Databases**
-- 📫 How to reach me: **hungle01.01.06@gmail.com**
+- 💬 Ask me about **Web Development, APIs, Database**
+- 📫 How to reach me: **hungle06.01.01@gmail.com**
 - 😄 Pronouns: **He/Him**
-- ⚡ Fun fact: **I debug with console.log() 😄**
 
 <br clear="both">
 
