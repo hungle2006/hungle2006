@@ -197,14 +197,6 @@
 
 ---
 
-## 🐍 Contribution Snake
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/hungle2006/hungle2006/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</div>
-
----
-
 ## 📈 Coding Stats
 
 <div align="center">
