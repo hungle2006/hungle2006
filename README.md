@@ -106,6 +106,12 @@
 - **Features**: User authentication, Payment integration, Admin dashboard
 - **Demo**: [🌐 Live Demo](https://your-demo-link.com) | [📁 Repository](https://github.com/hungle2006/project1)
 
+<div align="center">
+  <a href="https://github.com/hungle2006/project1">
+    <img src="https://img.shields.io/badge/⭐_Give_a_star-if_you_find_this_helpful-yellow?style=for-the-badge&logo=github" alt="Give a star"/>
+  </a>
+</div>
+
 ---
 
 ### 🌟 [Project Name 2](https://github.com/hungle2006/project2)
@@ -116,6 +122,12 @@
 - **Features**: Real-time chat, Photo sharing, Social networking
 - **Demo**: [🌐 Live Demo](https://your-demo-link.com) | [📁 Repository](https://github.com/hungle2006/project2)
 
+<div align="center">
+  <a href="https://github.com/hungle2006/project2">
+    <img src="https://img.shields.io/badge/⭐_Give_a_star-if_you_find_this_helpful-yellow?style=for-the-badge&logo=github" alt="Give a star"/>
+  </a>
+</div>
+
 ---
 
 ### 💡 [Project Name 3](https://github.com/hungle2006/project3)
@@ -125,6 +137,12 @@
 - **Tech Stack**: Python, Django, TensorFlow, PostgreSQL
 - **Features**: Smart task prioritization, AI recommendations, Team collaboration
 - **Demo**: [🌐 Live Demo](https://your-demo-link.com) | [📁 Repository](https://github.com/hungle2006/project3)
+
+<div align="center">
+  <a href="https://github.com/hungle2006/project3">
+    <img src="https://img.shields.io/badge/⭐_Give_a_star-if_you_find_this_helpful-yellow?style=for-the-badge&logo=github" alt="Give a star"/>
+  </a>
+</div>
 
 </div>
 
