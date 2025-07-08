@@ -97,7 +97,7 @@
 
 <div align="center">
   
-### 🔥 [](https://github.com/hungle2006/project1)
+### 🔥 [AI Diabetes Detection System](https://github.com/hungle2006/project1)
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=hungle2006&repo=project1&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
 
 **🚀 Full Stack E-commerce Platform**
