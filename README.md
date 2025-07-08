@@ -97,13 +97,13 @@
 
 <div align="center">
   
-### 🔥 [Project Name 1](https://github.com/hungle2006/project1)
+### 🔥 [](https://github.com/hungle2006/project1)
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=hungle2006&repo=project1&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
 
 **🚀 Full Stack E-commerce Platform**
 - **Tech Stack**: React, Node.js, MongoDB, Express.js
 - **Features**: User authentication, Payment integration, Admin dashboard
-- **Demo**: [🌐 Live Demo](https://your-demo-link.com) | [📁 Repository](https://github.com/hungle2006/project1)
+- [📁 Repository](https://github.com/hungle2006/project1)
 
 <div align="center">
   <a href="https://github.com/hungle2006/project1/stargazers">
