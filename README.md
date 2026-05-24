@@ -105,7 +105,7 @@
 <div align="center">
   
 ### 🔥 [AI Diabetes Prediction System](https://github.com/hungle2006/Diabetes-AI)
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=hungle2006&repo=Diabetes-AI&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+<img width="579" height="318" alt="image" src="https://github.com/user-attachments/assets/f3b39a44-ba91-4cd6-adb0-023824dddd3d" />
 
 **🏥 Machine Learning Healthcare Solution**
 - **Tech Stack**: Python, TensorFlow, Scikit-learn, Flask, React
@@ -127,7 +127,7 @@
 
 ### 🔥 [Lung Multi-Task Learning](https://github.com/hungle2006/Lung_Multi-taskLearning)
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=hungle2006&repo=Lung_Multi-taskLearning&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+<img width="1113" height="585" alt="image" src="https://github.com/user-attachments/assets/20326e03-5c98-49cb-91d1-629b24f32985" />
 
 **🫁 AI-Powered Respiratory Disease Classification System**
 - **Tech Stack**: Python, PyTorch, TensorFlow, Scikit-learn, Grad-CAM
