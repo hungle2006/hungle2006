@@ -125,6 +125,31 @@
 ---
 
 
+### 🔥 [Lung Multi-Task Learning](https://github.com/hungle2006/Lung_Multi-taskLearning)
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=hungle2006&repo=Lung_Multi-taskLearning&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+
+**🫁 AI-Powered Respiratory Disease Classification System**
+- **Tech Stack**: Python, PyTorch, TensorFlow, Scikit-learn, Grad-CAM
+- **Features**: Multi-task learning, Lung sound classification, Disease prediction, Explainable AI, Audio preprocessing
+- **Architecture**: CNN + Attention + Prototype Learning + Ensemble Models
+- **Tasks**: Crackle/Wheeze Detection + Respiratory Disease Classification
+- **Performance**: Robust multi-task inference with advanced feature extraction
+- [📁 Repository](https://github.com/hungle2006/Lung_Multi-taskLearning)
+
+<div align="center">
+  <a href="https://github.com/hungle2006/Lung_Multi-taskLearning/stargazers">
+    <img src="https://img.shields.io/github/stars/hungle2006/Lung_Multi-taskLearning?style=for-the-badge&logo=github&color=yellow&labelColor=black" alt="GitHub Stars"/>
+  </a>
+  
+  <a href="https://github.com/hungle2006/Lung_Multi-taskLearning/forks">
+    <img src="https://img.shields.io/github/forks/hungle2006/Lung_Multi-taskLearning?style=for-the-badge&logo=github&color=blue&labelColor=black" alt="GitHub Forks"/>
+  </a>
+</div>
+
+---
+
+
   
 ### 🎉 Thanks for visiting my AI Engineering profile! 
 
