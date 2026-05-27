@@ -149,6 +149,33 @@
 
 ---
 
+### 🔥 [Traffic AV](https://github.com/hungle2006/Traffic_AV)
+
+<img width="1093" height="520" alt="image" src="https://github.com/user-attachments/assets/551a98ac-1601-40e9-9ced-460c25be6d1f" />
+
+
+**🚦 AI-Powered Traffic Audio-Visual Analysis System**
+
+* **Tech Stack**: Python, PyTorch, TensorFlow, OpenCV, Scikit-learn, Librosa
+* **Features**: Multi-modal learning, Traffic sound analysis, Vehicle detection, Explainable AI, Audio-visual preprocessing
+* **Architecture**: CNN + Attention + Transformer + Ensemble Learning
+* **Tasks**: Traffic Event Classification + Audio-Visual Scene Understanding
+* **Performance**: Robust multi-modal inference with advanced feature extraction
+* [📁 Repository](https://github.com/hungle2006/Traffic_AV)
+
+<div align="center">
+  <a href="https://github.com/hungle2006/Traffic_AV/stargazers">
+    <img src="https://img.shields.io/github/stars/hungle2006/Traffic_AV?style=for-the-badge&logo=github&color=yellow&labelColor=black" alt="GitHub Stars"/>
+  </a>
+
+  <a href="https://github.com/hungle2006/Traffic_AV/forks">
+    <img src="https://img.shields.io/github/forks/hungle2006/Traffic_AV?style=for-the-badge&logo=github&color=blue&labelColor=black" alt="GitHub Forks"/>
+  </a>
+</div>
+
+---
+
+
 
   
 ### 🎉 Thanks for visiting my AI Engineering profile! 
