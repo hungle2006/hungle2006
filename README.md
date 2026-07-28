@@ -202,6 +202,34 @@
 
 ---
 
+### 🔥 [Gaussian Splatting LPIPS Fine-tuning](https://github.com/hungle2006/gaussian-splatting-LPIPS-Fine-tuning)
+
+<p align="center">
+  <img width="1266" height="942" alt="image" src="https://github.com/user-attachments/assets/3aeb6ab7-9741-4581-b046-6cf051922db0" />
+
+</p>
+
+**📸 Automated Novel View Synthesis Pipeline**
+
+- **Tech Stack**: Python, PyTorch, CUDA, COLMAP, Depth Anything V2, 3D Gaussian Splatting, LPIPS, OpenCV
+- **Features**: Automatic reconstruction, depth-guided densification, Gaussian pruning, exposure compensation, LPIPS fine-tuning, model quantization, checkpoint resume, and batch multi-scene processing
+- **Pipeline**: COLMAP → Depth Anything V2 → 3D Gaussian Splatting → Gaussian Pruning → Exposure Compensation → LPIPS Fine-tuning → Quantization → Novel View Rendering
+- **Transfer Learning**: Lightweight cross-scene color adaptation using **GlobalColorMLP**
+- **Evaluation**: Automatic benchmarking with **PSNR**, **SSIM**, and **LPIPS**
+- [📁 Repository](https://github.com/hungle2006/gaussian-splatting-LPIPS-Fine-tuning)
+
+<div align="center">
+  <a href="https://github.com/hungle2006/gaussian-splatting-LPIPS-Fine-tuning/stargazers">
+    <img src="https://img.shields.io/github/stars/hungle2006/gaussian-splatting-LPIPS-Fine-tuning?style=for-the-badge&logo=github&color=yellow&labelColor=black" alt="GitHub Stars"/>
+  </a>
+
+  <a href="https://github.com/hungle2006/gaussian-splatting-LPIPS-Fine-tuning/forks">
+    <img src="https://img.shields.io/github/forks/hungle2006/gaussian-splatting-LPIPS-Fine-tuning?style=for-the-badge&logo=github&color=blue&labelColor=black" alt="GitHub Forks"/>
+  </a>
+</div>
+
+---
+
 
 
 
