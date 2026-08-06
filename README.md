@@ -226,6 +226,36 @@ I'm an **AI/ML Engineer** focused on deep learning, computer vision, and multi-m
 
 <div align="center">
 
+---
+
+### 🇻🇳 [Vietnamese Multi-scale CNN](https://github.com/hungle2006/VietnameseMulti-scale-CNN)
+*Robust Vietnamese Language Identification under Real-world Noise*
+
+**Stack:** `Python` `PyTorch` `NLP` `Character-level CNN` `Transformer Encoder`
+
+**Architecture:**
+Character Embedding → Multi-scale CharCNN (Kernel 3/5/7/11) → Residual Blocks → Squeeze-and-Excitation → Transformer Encoder → Multi-Head Attention Pooling → Angular Margin Loss → Temperature Scaling
+
+**Highlights:**
+- Character-level language identification designed for noisy Vietnamese text
+- Robust against missing accents, OCR errors, typos, slang, emojis, URLs, and mixed-language content
+- Multi-scale CNN extracts both local character patterns and long-range contextual information
+- Residual connections and SE blocks improve feature representation
+- Transformer encoder enhances contextual modeling over character sequences
+- Supports data augmentation, label smoothing, and calibrated confidence estimation
+- End-to-end training pipeline with automatic checkpointing and inference scripts
+- Evaluation using **Macro F1**, **Log-loss**, and calibrated prediction probabilities
+- Production-ready inference with saved checkpoints and standalone prediction pipeline
+
+<div align="center">
+  <a href="https://github.com/hungle2006/VietnameseMulti-scale-CNN/stargazers">
+    <img src="https://img.shields.io/github/stars/hungle2006/VietnameseMulti-scale-CNN?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117" alt="GitHub Stars"/>
+  </a>
+  <a href="https://github.com/hungle2006/VietnameseMulti-scale-CNN/fork">
+    <img src="https://img.shields.io/github/forks/hungle2006/VietnameseMulti-scale-CNN?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117" alt="GitHub Forks"/>
+  </a>
+</div>
+
 ## 🤝 Let's Connect
 
 Always happy to talk about ML research, model optimization, or collaborating on an open-source project.
