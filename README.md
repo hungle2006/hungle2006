@@ -256,6 +256,35 @@ Character Embedding → Multi-scale CharCNN (Kernel 3/5/7/11) → Residual Block
   </a>
 </div>
 
+---
+
+### 🤖 [LFM Serving](https://github.com/hungle2006/lfm-serving)
+
+*Lightweight LLM inference and serving system with a live Hugging Face demo*
+
+<div align="center">
+  <a href="https://huggingface.co/spaces/leminhhung0101/lfm-serving">
+    <img src="https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-FFD21E?style=for-the-badge" alt="Hugging Face Demo"/>
+  </a>
+</div>
+
+**Stack:** `Python` `PyTorch` `Hugging Face` `Gradio`
+
+**Highlights:** Lightweight LLM serving, interactive inference interface, and public deployment on Hugging Face Spaces.
+
+**Demo:** 🤗 [Try it on Hugging Face](https://huggingface.co/spaces/leminhhung0101/lfm-serving)
+
+<div align="center">
+  <a href="https://github.com/hungle2006/lfm-serving/stargazers">
+    <img src="https://img.shields.io/github/stars/hungle2006/lfm-serving?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+  </a>
+  <a href="https://github.com/hungle2006/lfm-serving/forks">
+    <img src="https://img.shields.io/github/forks/hungle2006/lfm-serving?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+  </a>
+</div>
+
+---
+
 ## 🤝 Let's Connect
 
 Always happy to talk about ML research, model optimization, or collaborating on an open-source project.
