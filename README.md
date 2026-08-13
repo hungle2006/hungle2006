@@ -285,6 +285,34 @@ Character Embedding → Multi-scale CharCNN (Kernel 3/5/7/11) → Residual Block
 
 ---
 
+### ⚡ [Speed LFM Serving](https://github.com/hungle2006/speedLfmServing)
+
+*High-performance LFM model serving and inference system*
+
+<div align="center">
+  <a href="https://huggingface.co/spaces/leminhhung0101/SpeedLfmServing">
+    <img src="https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-FFD21E?style=for-the-badge" alt="Hugging Face Demo"/>
+  </a>
+</div>
+
+**Stack:** `Python` `PyTorch` `Hugging Face` `Gradio`
+
+**Highlights:** Optimized LFM inference serving with a lightweight interface and public deployment on Hugging Face Spaces.
+
+**Demo:** 🤗 [Try it on Hugging Face](https://huggingface.co/spaces/leminhhung0101/SpeedLfmServing)
+
+<div align="center">
+  <a href="https://github.com/hungle2006/speedLfmServing/stargazers">
+    <img src="https://img.shields.io/github/stars/hungle2006/speedLfmServing?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+  </a>
+  <a href="https://github.com/hungle2006/speedLfmServing/forks">
+    <img src="https://img.shields.io/github/forks/hungle2006/speedLfmServing?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+  </a>
+</div>
+
+---
+
+
 ## 🤝 Let's Connect
 
 Always happy to talk about ML research, model optimization, or collaborating on an open-source project.
