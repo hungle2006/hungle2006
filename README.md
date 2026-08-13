@@ -312,6 +312,39 @@ Character Embedding → Multi-scale CharCNN (Kernel 3/5/7/11) → Residual Block
 
 ---
 
+### 🧠 [BrainModel](https://github.com/hungle2006/BrainModel)
+
+*Deep learning framework for brain-related AI research and modeling*
+
+<img width="1191" height="542" alt="image" src="https://github.com/user-attachments/assets/5caf8dee-c47a-4ff5-8b4f-2dae320faad3" />
+
+**Stack:** `Python` `PyTorch` `Deep Learning` `Neural Networks` `Computer Vision`
+
+**Overview:**
+BrainModel is an AI/Deep Learning project focused on developing and experimenting with neural network models for brain-related applications. The project provides a foundation for model training, experimentation, and evaluation.
+
+**Highlights:**
+
+* 🧠 Deep learning models for brain-related data
+* ⚙️ PyTorch-based model development and training
+* 📊 Training and evaluation pipeline
+* 🔬 Designed for AI research and experimentation
+* 🚀 Modular structure for further model development and optimization
+
+**Focus:** `Brain AI` · `Deep Learning` · `Neural Networks` · `Model Training` · `AI Research`
+
+<div align="center">
+  <a href="https://github.com/hungle2006/BrainModel/stargazers">
+    <img src="https://img.shields.io/github/stars/hungle2006/BrainModel?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117" alt="GitHub Stars"/>
+  </a>
+  <a href="https://github.com/hungle2006/BrainModel/forks">
+    <img src="https://img.shields.io/github/forks/hungle2006/BrainModel?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117" alt="GitHub Forks"/>
+  </a>
+</div>
+
+---
+
+
 
 ## 🤝 Let's Connect
 
