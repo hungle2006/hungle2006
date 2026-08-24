@@ -1,359 +1,666 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F3A5F,100:58A6FF&height=140&section=header" width="100%"/>
+# LÊ MINH HÙNG
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=58A6FF&width=560&lines=Hi+there%2C+I'm+L%C3%8A+MINH+H%C3%99NG+%F0%9F%91%8B;AI+%2F+Machine+Learning+Engineer;Computer+Vision+%26+3D+Deep+Learning;Turning+Research+into+Production+Systems" alt="Typing SVG" />
+### AI / ML Engineer · Computer Vision · Deep Learning · AI Systems
 
-<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="460">
+<br/>
+
+<a href="https://github.com/hungle2006">
+  <img src="https://img.shields.io/badge/GitHub-hungle2006-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+<a href="https://huggingface.co/leminhhung0101">
+  <img src="https://img.shields.io/badge/Hugging%20Face-Models%20%26%20Demos-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+</a>
+<a href="mailto:hungle06.01.01@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<br/><br/>
+
+> **Building intelligent systems from research ideas to efficient, deployable AI applications.**
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,cpp,opencv,sklearn,github,docker,linux,git" />
+
+</div>
+
+---
+
+## 🧠 About
+
+I'm **Lê Minh Hùng**, an AI-focused developer working across **deep learning, computer vision, medical AI, 3D vision, NLP, multimodal systems, and efficient AI inference**.
+
+My projects are centered around one idea:
+
+```text
+Research
+   ↓
+Model Design
+   ↓
+Training
+   ↓
+Evaluation
+   ↓
+Optimization
+   ↓
+Efficient Inference
+   ↓
+Deployment
+```
+
+I enjoy turning research-oriented architectures into systems that are **measurable, optimized, reproducible, and practical**.
+
+### Currently interested in
+
+`Deep Learning` · `Computer Vision` · `Medical AI` · `3D Vision` · `LLM Systems` · `NLP` · `Multimodal AI` · `Model Optimization`
+
+---
+
+# 🧭 AI Portfolio
+
+<div align="center">
+
+| 🧠 Medical AI | 👁️ Computer Vision | 🧊 3D Vision | 🤖 LLM / NLP |
+|:---:|:---:|:---:|:---:|
+| Brain MRI | Image Retrieval | 3D Gaussian Splatting | LFM Serving |
+| Knee MRI | Anomaly Detection | Mip-Splatting | Vietnamese NLP |
+| Lung Audio | Feature Matching | Neural View Synthesis | Hate Speech |
+| Diabetes AI | Representation Learning | Depth-guided Refinement | Transformer Models |
+
+</div>
+
+---
+
+# ⭐ Featured Projects
+
+## 🧊 01 — 3D Gaussian Splatting & Neural View Synthesis
+
+My main computer-vision research direction focuses on **3D scene reconstruction and novel-view synthesis**.
+
+### `gaussian-splatting-LPIPS-Fine-tuning`
+
+**COLMAP → Depth Anything V2 → 3DGS → Pruning → LPIPS → Quantization**
+
+```text
+Images
+  │
+  ▼
+COLMAP
+  │
+  ├───────────────┐
+  │               │
+  ▼               ▼
+Camera Poses   Depth Anything V2
+  │               │
+  └───────┬───────┘
+          ▼
+ Depth-guided Densification
+          │
+          ▼
+      3D Gaussian Splatting
+          │
+          ▼
+   Gaussian Refinement
+          │
+          ▼
+ LPIPS Fine-tuning
+          │
+          ▼
+     Quantization
+          │
+          ▼
+ Novel View Synthesis
+```
+
+**Focus**
+
+`COLMAP` `Depth Anything V2` `3DGS` `LPIPS` `Gaussian Pruning` `Quantization` `PSNR` `SSIM`
+
+---
+
+### `Mip-Splatting-Fine-tuning`
+
+A more advanced NVS workflow combining **Mip-Splatting, depth-guided densification, pruning, appearance correction and perceptual fine-tuning**.
+
+```text
+COLMAP
+   ↓
+Depth Estimation
+   ↓
+Metric Alignment
+   ↓
+Depth-guided Densification
+   ↓
+Mip-Splatting
+   ↓
+Gaussian Pruning
+   ↓
+Appearance Optimization
+   ↓
+LPIPS Fine-tuning
+   ↓
+Quantization
+```
+
+**Why it matters**
+
+The project explores the trade-off between:
+
+- visual fidelity
+- Gaussian count
+- rendering quality
+- optimization stability
+- model size
+- inference efficiency
+
+---
+
+### `OmniGS`
+
+A broader experimental direction around **high-quality Gaussian Splatting and scene reconstruction**, with emphasis on geometric refinement, adaptive optimization and efficient representation.
+
+---
+
+# 🏥 02 — Medical AI
+
+A large part of my portfolio focuses on applying deep learning to **medical imaging and biomedical signals**.
+
+## `BrainModel`
+
+Deep-learning research framework for brain-related AI.
+
+**Core stack**
+
+`PyTorch` · `Computer Vision` · `Neural Networks` · `Model Training` · `Evaluation`
+
+---
+
+## `Gold58-ConvNeXt2.5D`
+
+Study-level **multi-label knee MRI classification**.
+
+### Architecture
+
+```text
+MRI Study
+   │
+   ▼
+Protocol-aware Selection
+   │
+   ▼
+Uniform Slice Sampling
+   │
+   ▼
+2.5D Slice Construction
+   │
+   ▼
+ConvNeXtV2
+   │
+   ▼
+Feature Aggregation
+   │
+   ▼
+Multi-label Prediction
+```
+
+### Main ideas
+
+- 2.5D MRI representation
+- ConvNeXtV2 backbone
+- Study-level aggregation
+- Multi-label classification
+- Fixed validation subset
+- Efficient feature extraction
+
+---
+
+## `knee-detection`
+
+A study-level knee MRI system exploring:
+
+`Multi-Instance Learning` · `Transformer Aggregation` · `MRI Feature Caching` · `Study-level Prediction`
+
+The project focuses on converting **multiple MRI slices and series into a single study-level decision**.
+
+---
+
+## `Lung_Multi-taskLearning`
+
+AI pipeline for respiratory sound analysis.
+
+```text
+Lung Audio
+    │
+    ▼
+Audio Preprocessing
+    │
+    ▼
+Multi-task CNN
+    │
+    ├───────────────┐
+    ▼               ▼
+Crackle/Wheeze   Disease
+Detection        Classification
+    │               │
+    └───────┬───────┘
+            ▼
+        Explainability
+            │
+            ▼
+          Grad-CAM
+```
+
+**Focus**
+
+`Audio AI` · `Multi-task Learning` · `Attention` · `Prototype Learning` · `Grad-CAM`
+
+---
+
+## `Diabetes-AI`
+
+Medical AI system exploring diabetes prediction using:
+
+`Retinal / Eye Data` + `Clinical Information` + `Machine Learning`
+
+---
+
+# 👁️ 03 — Computer Vision
+
+## `Deep-Image-Retrieval-using-DINOv2-OpenCLIP-ConvNeXt-and-LightGlue`
+
+A hybrid image retrieval system combining **global semantic representations with local visual verification**.
+
+```text
+                  Query Image
+                       │
+        ┌──────────────┼──────────────┐
+        ▼              ▼              ▼
+      DINOv2         OpenCLIP       ConvNeXt
+        │              │              │
+        └──────────────┼──────────────┘
+                       ▼
+                 Feature Fusion
+                       │
+                       ▼
+                  Global Top-K
+                       │
+                       ▼
+            ┌──────────┴──────────┐
+            ▼                     ▼
+         LightGlue             Texture
+            │                     │
+            └──────────┬──────────┘
+                       ▼
+                   Re-ranking
+                       │
+                       ▼
+                  Final Results
+```
+
+### Representation stack
+
+`DINOv2` · `OpenCLIP` · `ConvNeXt` · `LightGlue` · `Texture Features`
+
+The important idea is to combine **semantic similarity** with **local geometric evidence** instead of relying on a single embedding.
+
+---
+
+## `anomaly_3branch`
+
+Normal-only anomaly detection using three complementary feature branches.
+
+```text
+                 Normal Images
+                       │
+        ┌──────────────┼──────────────┐
+        ▼              ▼              ▼
+      DINOv2        ConvNeXt      WideResNet50
+        │              │              │
+        ▼              ▼              ▼
+     Global         Hierarchical     Patch-level
+     Features        Features        Features
+        │              │              │
+        └──────────────┼──────────────┘
+                       ▼
+                 Score Fusion
+                       │
+                       ▼
+                 Anomaly Score
+```
+
+**Focus**
+
+`DINOv2` · `ConvNeXt` · `PatchCore` · `Anomaly Detection`
+
+---
+
+# 🇻🇳 04 — Vietnamese NLP
+
+## `VietnameseMulti-scale-CNN`
+
+A character-level Vietnamese language identification model designed for **real-world noisy text**.
+
+### Architecture
+
+```text
+Character Input
+      │
+      ▼
+Character Embedding
+      │
+      ▼
+Multi-scale CNN
+ ┌────┼────┬────┐
+ │    │    │    │
+3x3  5x5  7x7  11x11
+ └────┼────┴────┘
+      ▼
+Residual Blocks
+      ▼
+Squeeze-and-Excitation
+      ▼
+Transformer Encoder
+      ▼
+Multi-Head Attention Pooling
+      ▼
+Angular Margin Loss
+      ▼
+Temperature Scaling
+      ▼
+Prediction
+```
+
+### Designed for noisy Vietnamese
+
+`Missing Diacritics` · `OCR Errors` · `Typos` · `Slang` · `Emoji` · `URLs` · `Mixed Language`
+
+---
+
+## `R-ViHSDModel`
+
+Vietnamese hate-speech and text-noise classification.
+
+### Strategy
+
+```text
+Vietnamese Text
+       │
+       ├──────────────┐
+       ▼              ▼
+   ViSoBERT       Character TF-IDF
+       │              │
+       └──────┬───────┘
+              ▼
+       Base Predictions
+              │
+              ▼
+       OOF Stacking
+              │
+              ▼
+       Final Classifier
+```
+
+**Focus**
+
+`ViSoBERT` · `TF-IDF` · `Linear Models` · `OOF Stacking`
+
+---
+
+# 🤖 05 — LLM Serving & Efficient AI
+
+## `lfm-serving`
+
+A lightweight LLM serving system built around **LFM inference with a public Hugging Face demo**.
+
+### System idea
+
+```text
+Request
+   │
+   ▼
+Prompt Processing
+   │
+   ▼
+Inference Engine
+   │
+   ▼
+LFM Model
+   │
+   ▼
+Streaming Response
+```
+
+---
+
+## `speedLfmServing`
+
+A more performance-oriented direction for **high-efficiency LFM inference and serving**.
+
+```text
+Incoming Requests
+       │
+       ▼
+Prompt Normalization
+       │
+       ▼
+Request Scheduling
+       │
+       ▼
+Resource-aware Admission
+       │
+       ▼
+Efficient LLM Engine
+       │
+       ▼
+LFM Inference
+       │
+       ▼
+Response
+```
+
+### Main goals
+
+- Lower inference overhead
+- Efficient GPU utilization
+- Request scheduling
+- Lightweight serving
+- Practical deployment
+
+---
+
+# 🚗 06 — Multimodal & Autonomous Systems
+
+## `Traffic_AV`
+
+Multimodal traffic understanding using both **visual and audio information**.
+
+```text
+Video ───────────────┐
+                     ├──► Feature Extraction
+Audio ───────────────┘
+                           │
+                           ▼
+                    CNN / Attention
+                           │
+                           ▼
+                      Transformer
+                           │
+                           ▼
+                   Scene Understanding
+```
+
+**Focus**
+
+`Audio-Visual Learning` · `CNN` · `Attention` · `Transformer` · `Traffic AI`
+
+---
+
+# 🧩 Research Map
+
+<div align="center">
+
+```text
+                         AI / ML
+                           │
+        ┌──────────────────┼──────────────────┐
+        │                  │                  │
+        ▼                  ▼                  ▼
+    Medical AI        Computer Vision      NLP / LLM
+        │                  │                  │
+   ┌────┼────┐        ┌────┼────┐        ┌────┼────┐
+   │    │    │        │    │    │        │    │    │
+ Brain Knee Lung   Retrieval 3DGS Anomaly ViSoBERT LFM  CNN
+   │    │    │        │    │    │        │    │    │
+   └────┴────┘        └────┴────┘        └────┴────┘
+        │                  │                  │
+        └──────────────────┼──────────────────┘
+                           ▼
+                   Efficient AI Systems
+                           │
+                 ┌─────────┼─────────┐
+                 ▼         ▼         ▼
+             Fine-tuning  Pruning  Quantization
+                 │         │         │
+                 └─────────┼─────────┘
+                           ▼
+                       Deployment
+```
+
+</div>
+
+---
+
+# ⚙️ Tech Stack
+
+### Deep Learning
 
 <p>
-  <a href="mailto:hungle06.01.01@gmail.com"><img src="https://img.shields.io/badge/Email-hungle06.01.01%40gmail.com-58A6FF?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://komarev.com/ghpvc/?username=hungle2006&style=flat-square&color=58A6FF&label=Profile+Views" alt="Profile Views"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
 </p>
 
-</div>
+### Computer Vision
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:58A6FF,100:1F3A5F&height=3&width=1000" width="100%"/>
+<p>
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
+<img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white"/>
+<img src="https://img.shields.io/badge/COLMAP-3D%20Vision-black?style=flat-square"/>
+<img src="https://img.shields.io/badge/3DGS-Gaussian%20Splatting-purple?style=flat-square"/>
 </p>
 
-## 🧭 About Me
+### LLM / NLP
 
-I'm an **AI/ML Engineer** focused on deep learning, computer vision, and multi-modal systems — spanning healthcare diagnostics, audio-visual scene understanding, and 3D scene reconstruction. I like taking research-grade models out of notebooks and turning them into systems that actually run in production.
-
-<img align="right" width="340" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
-
-- 🔭 **Currently building** — AI/ML projects & LLM-powered applications
-- 🌱 **Currently deepening** — Advanced deep learning architectures & MLOps
-- 🤝 **Open to collaborate on** — AI research and open-source ML projects
-- 🎯 **Currently exploring** — Neural architecture search & model optimization
-- 💬 **Ask me about** — Machine Learning · Deep Learning · NLP · Computer Vision
-- 📫 **Reach me at** — hungle06.01.01@gmail.com
-- ⚡ **Fun fact** — I love turning raw data into intelligent, deployable insight
-
-<br clear="both">
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:58A6FF,100:1F3A5F&height=3&width=1000" width="100%"/>
+<p>
+<img src="https://img.shields.io/badge/Transformers-FF6F00?style=flat-square"/>
+<img src="https://img.shields.io/badge/vLLM-Inference-blue?style=flat-square"/>
+<img src="https://img.shields.io/badge/QLoRA-Fine--tuning-green?style=flat-square"/>
+<img src="https://img.shields.io/badge/NLP-Vietnamese%20AI-orange?style=flat-square"/>
 </p>
 
-## 🛠️ Tech Stack
+### Engineering
 
-<div align="center">
-
-<sub>**MACHINE LEARNING & AI**</sub>
-<br>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white"/>
-
-<br><br>
-
-<sub>**DEEP LEARNING & DATA ANALYSIS**</sub>
-<br>
-<img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=plotly&logoColor=white"/>
-<img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-
-<br><br>
-
-<sub>**MLOPS & PRODUCTION**</sub>
-<br>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-<img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>
-
-<br><br>
-
-<sub>**CLOUD & BIG DATA**</sub>
-<br>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
-<img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/>
-<img src="https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white"/>
-<img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white"/>
-<img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/>
-
-<br><br>
-
-<sub>**DATABASES & VECTOR STORES**</sub>
-<br>
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white"/>
-<img src="https://img.shields.io/badge/Weaviate-00C7B7?style=for-the-badge&logo=weaviate&logoColor=white"/>
-
-<br><br>
-
-<sub>**DEV TOOLS**</sub>
-<br>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/>
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-<img src="https://img.shields.io/badge/Weights%20&%20Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=white"/>
-
-</div>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:58A6FF,100:1F3A5F&height=3&width=1000" width="100%"/>
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/Git-181717?style=flat-square&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
 </p>
 
-## 📊 GitHub Analytics
+---
+
+# 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=hungle2006&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
-  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=hungle2006&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF"/>
-</div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=hungle2006&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" alt="GitHub Streak"/>
-</div>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=hungle2006&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hungle2006&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FF6B6B" alt="Contribution Graph"/>
-</div>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hungle2006&layout=compact&theme=tokyonight&hide_border=true" />
 
-<div align="center">
-<sub>📌 Analytics cards are generated live by community services and may occasionally be slow to load on first view — reload the page if a card looks empty.</sub>
-</div>
+<br/><br/>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:58A6FF,100:1F3A5F&height=3&width=1000" width="100%"/>
-</p>
+<img src="https://streak-stats.demolab.com?user=hungle2006&theme=tokyonight&hide_border=true" />
 
-## 🎯 Featured Projects
-
-### 🏥 [AI Diabetes Prediction System](https://github.com/hungle2006/Diabetes-AI)
-*A machine learning healthcare solution for early diabetes risk detection*
-
-<div align="center">
-<img width="600" alt="Diabetes AI preview" src="https://github.com/user-attachments/assets/f3b39a44-ba91-4cd6-adb0-023824dddd3d" />
-</div>
-
-**Stack:** `Python` `TensorFlow` `Scikit-learn` `Flask` `React`
-**Highlights:** Predictive modeling with feature engineering, model interpretability, and an interactive web dashboard — achieving **85–90% accuracy** via ensemble methods.
-
-<div align="center">
-  <a href="https://github.com/hungle2006/Diabetes-AI/stargazers"><img src="https://img.shields.io/github/stars/hungle2006/Diabetes-AI?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117" alt="GitHub Stars"/></a>
-  <a href="https://github.com/hungle2006/Diabetes-AI/fork"><img src="https://img.shields.io/github/forks/hungle2006/Diabetes-AI?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117" alt="GitHub Forks"/></a>
 </div>
 
 ---
 
-### 🫁 [Lung Multi-Task Learning](https://github.com/hungle2006/Lung_Multi-taskLearning)
-*AI-powered respiratory disease classification from lung sound audio*
+# 🏆 What I Like Building
 
-<div align="center">
-<img width="700" alt="Lung Multi-task Learning preview" src="https://github.com/user-attachments/assets/20326e03-5c98-49cb-91d1-629b24f32985" />
-</div>
-
-**Stack:** `Python` `PyTorch` `TensorFlow` `Scikit-learn` `Grad-CAM`
-**Architecture:** CNN + Attention + Prototype Learning + Ensemble Models
-**Tasks:** Crackle/wheeze detection · Respiratory disease classification
-**Highlights:** Multi-task learning pipeline with explainable AI (Grad-CAM) and robust audio preprocessing for reliable multi-task inference.
-
-<div align="center">
-  <a href="https://github.com/hungle2006/Lung_Multi-taskLearning/stargazers"><img src="https://img.shields.io/github/stars/hungle2006/Lung_Multi-taskLearning?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117" alt="GitHub Stars"/></a>
-  <a href="https://github.com/hungle2006/Lung_Multi-taskLearning/forks"><img src="https://img.shields.io/github/forks/hungle2006/Lung_Multi-taskLearning?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117" alt="GitHub Forks"/></a>
-</div>
-
----
-
-### 🚦 [Traffic AV](https://github.com/hungle2006/Traffic_AV)
-*Multi-modal audio-visual analysis for traffic scene understanding*
-
-<div align="center">
-<img width="700" alt="Traffic AV preview" src="https://github.com/user-attachments/assets/551a98ac-1601-40e9-9ced-460c25be6d1f" />
-</div>
-
-**Stack:** `Python` `PyTorch` `TensorFlow` `OpenCV` `Scikit-learn` `Librosa`
-**Architecture:** CNN + Attention + Transformer + Ensemble Learning
-**Tasks:** Traffic event classification · Audio-visual scene understanding
-**Highlights:** Combines vehicle detection with traffic sound analysis for robust multi-modal inference and explainable predictions.
-
-<div align="center">
-  <a href="https://github.com/hungle2006/Traffic_AV/stargazers"><img src="https://img.shields.io/github/stars/hungle2006/Traffic_AV?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117" alt="GitHub Stars"/></a>
-  <a href="https://github.com/hungle2006/Traffic_AV/forks"><img src="https://img.shields.io/github/forks/hungle2006/Traffic_AV?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117" alt="GitHub Forks"/></a>
-</div>
+```text
+┌──────────────────────────────────────────────────────────┐
+│                                                          │
+│  🧠 Models that solve real problems                      │
+│                                                          │
+│  👁️ Vision systems that understand images & 3D scenes   │
+│                                                          │
+│  🏥 AI systems for healthcare                            │
+│                                                          │
+│  🤖 Efficient LLM inference                              │
+│                                                          │
+│  ⚡ Optimized training and deployment                    │
+│                                                          │
+│  🔬 Research ideas turned into working systems            │
+│                                                          │
+└──────────────────────────────────────────────────────────┘
+```
 
 ---
 
-### 📸 [Gaussian Splatting LPIPS Fine-Tuning](https://github.com/hungle2006/gaussian-splatting-LPIPS-Fine-tuning)
-*Automated multi-scene novel view synthesis pipeline*
+# 📌 Repository Highlights
 
-<div align="center">
-<img width="600" alt="Gaussian Splatting LPIPS preview" src="https://github.com/user-attachments/assets/5956d290-99ba-4621-9f71-c3579701f921" />
-</div>
-
-**Stack:** `Python` `PyTorch` `CUDA` `COLMAP` `Depth Anything V2` `3D Gaussian Splatting` `LPIPS` `OpenCV`
-**Pipeline:** COLMAP → Depth Anything V2 → Vanilla 3D Gaussian Splatting → Gaussian Pruning → Exposure Compensation + LPIPS → Quantization → Novel View Rendering
-**Highlights:**
-- Automatic COLMAP reconstruction with depth-guided point cloud densification
-- Gaussian pruning, exposure compensation, and LPIPS fine-tuning
-- Lightweight cross-scene color adaptation via a shared **GlobalColorMLP** for sequential scene optimization
-- Model quantization, Google Drive resume, and batch multi-scene processing
-- Automatic benchmarking with **PSNR**, **SSIM**, and **LPIPS** on public datasets
-
-<div align="center">
-  <a href="https://github.com/hungle2006/gaussian-splatting-LPIPS-Fine-tuning/stargazers"><img src="https://img.shields.io/github/stars/hungle2006/gaussian-splatting-LPIPS-Fine-tuning?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117" alt="GitHub Stars"/></a>
-  <a href="https://github.com/hungle2006/gaussian-splatting-LPIPS-Fine-tuning/forks"><img src="https://img.shields.io/github/forks/hungle2006/gaussian-splatting-LPIPS-Fine-tuning?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117" alt="GitHub Forks"/></a>
-</div>
-
----
-
-### 📸 [Mip-Splatting Fine-Tuning](https://github.com/hungle2006/Mip-Splatting-Fine-tuning)
-*Mip-Splatting fine-tuning for high-quality novel view synthesis*
-
-<div align="center">
-<img width="650" alt="Mip-Splatting preview" src="https://github.com/user-attachments/assets/195c693d-abdb-460d-9b5b-aa4c5b91c6c5" />
-</div>
-
-**Stack:** `Python` `PyTorch` `CUDA` `COLMAP` `Mip-Splatting` `LPIPS` `OpenCV`
-**Pipeline:** COLMAP → Depth Anything V2 → Mip-Splatting → Gaussian Pruning → Exposure Compensation → LPIPS Fine-Tuning → Quantization → Novel View Rendering
-**Highlights:** Depth-guided densification, Gaussian pruning, exposure compensation, model quantization, checkpoint resume, and batch scene processing — with automatic PSNR/SSIM/LPIPS benchmarking.
-
-<div align="center">
-  <a href="https://github.com/hungle2006/Mip-Splatting-Fine-tuning/stargazers"><img src="https://img.shields.io/github/stars/hungle2006/Mip-Splatting-Fine-tuning?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/></a>
-  <a href="https://github.com/hungle2006/Mip-Splatting-Fine-tuning/forks"><img src="https://img.shields.io/github/forks/hungle2006/Mip-Splatting-Fine-tuning?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/></a>
-</div>
-
-<div align="center">
+| Project | Area | Key Technologies |
+|:---|:---|:---|
+| **Gold58-ConvNeXt2.5D** | Medical AI | ConvNeXtV2 · MRI · Multi-label |
+| **R-ViHSDModel** | NLP | ViSoBERT · TF-IDF · OOF Stacking |
+| **knee-detection** | Medical AI | MRI · MIL · Transformer |
+| **anomaly_3branch** | Vision | DINOv2 · ConvNeXt · PatchCore |
+| **BrainModel** | Medical AI | PyTorch · Deep Learning |
+| **speedLfmServing** | LLM Systems | LFM · Serving · Optimization |
+| **lfm-serving** | LLM Systems | LFM · Hugging Face · Gradio |
+| **VietnameseMulti-scale-CNN** | NLP | CharCNN · Transformer |
+| **Mip-Splatting-Fine-tuning** | 3D Vision | Mip-Splatting · LPIPS |
+| **OmniGS** | 3D Vision | Gaussian Splatting |
+| **Deep-Image-Retrieval** | Vision | DINOv2 · CLIP · LightGlue |
+| **gaussian-splatting-LPIPS-Fine-tuning** | 3D Vision | 3DGS · Depth · LPIPS |
+| **Traffic_AV** | Multimodal AI | Audio · Vision · Transformer |
+| **Lung_Multi-taskLearning** | Medical AI | Audio · Multi-task Learning |
+| **Diabetes-AI** | Medical AI | Clinical + Vision |
 
 ---
 
-### 🇻🇳 [Vietnamese Multi-scale CNN](https://github.com/hungle2006/VietnameseMulti-scale-CNN)
-*Robust Vietnamese Language Identification under Real-world Noise*
+# 🔭 Current Direction
 
-**Stack:** `Python` `PyTorch` `NLP` `Character-level CNN` `Transformer Encoder`
+I'm currently pushing my work toward:
 
-**Architecture:**
-Character Embedding → Multi-scale CharCNN (Kernel 3/5/7/11) → Residual Blocks → Squeeze-and-Excitation → Transformer Encoder → Multi-Head Attention Pooling → Angular Margin Loss → Temperature Scaling
+**Efficient AI → Better representations → Stronger evaluation → Practical deployment**
 
-**Highlights:**
-- Character-level language identification designed for noisy Vietnamese text
-- Robust against missing accents, OCR errors, typos, slang, emojis, URLs, and mixed-language content
-- Multi-scale CNN extracts both local character patterns and long-range contextual information
-- Residual connections and SE blocks improve feature representation
-- Transformer encoder enhances contextual modeling over character sequences
-- Supports data augmentation, label smoothing, and calibrated confidence estimation
-- End-to-end training pipeline with automatic checkpointing and inference scripts
-- Evaluation using **Macro F1**, **Log-loss**, and calibrated prediction probabilities
-- Production-ready inference with saved checkpoints and standalone prediction pipeline
+Especially interested in:
 
-<div align="center">
-  <a href="https://github.com/hungle2006/VietnameseMulti-scale-CNN/stargazers">
-    <img src="https://img.shields.io/github/stars/hungle2006/VietnameseMulti-scale-CNN?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117" alt="GitHub Stars"/>
-  </a>
-  <a href="https://github.com/hungle2006/VietnameseMulti-scale-CNN/fork">
-    <img src="https://img.shields.io/github/forks/hungle2006/VietnameseMulti-scale-CNN?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117" alt="GitHub Forks"/>
-  </a>
-</div>
+`3D Vision` · `Medical AI` · `Efficient LLM Serving` · `Multimodal Learning` · `Model Compression` · `AI Systems`
 
 ---
 
-### 🤖 [LFM Serving](https://github.com/hungle2006/lfm-serving)
-
-*Lightweight LLM inference and serving system with a live Hugging Face demo*
-
 <div align="center">
-  <a href="https://huggingface.co/spaces/leminhhung0101/lfm-serving">
-    <img src="https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-FFD21E?style=for-the-badge" alt="Hugging Face Demo"/>
-  </a>
-</div>
 
-**Stack:** `Python` `PyTorch` `Hugging Face` `Gradio`
+### Let's build something intelligent. 🚀
 
-**Highlights:** Lightweight LLM serving, interactive inference interface, and public deployment on Hugging Face Spaces.
+<br/>
 
-**Demo:** 🤗 [Try it on Hugging Face](https://huggingface.co/spaces/leminhhung0101/lfm-serving)
+<a href="mailto:hungle06.01.01@gmail.com">
+  <img src="https://img.shields.io/badge/Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
 
-<div align="center">
-  <a href="https://github.com/hungle2006/lfm-serving/stargazers">
-    <img src="https://img.shields.io/github/stars/hungle2006/lfm-serving?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-  </a>
-  <a href="https://github.com/hungle2006/lfm-serving/forks">
-    <img src="https://img.shields.io/github/forks/hungle2006/lfm-serving?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-  </a>
-</div>
+<a href="https://github.com/hungle2006">
+  <img src="https://img.shields.io/badge/Explore%20My%20Repos-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
----
+<br/><br/>
 
-### ⚡ [Speed LFM Serving](https://github.com/hungle2006/speedLfmServing)
-
-*High-performance LFM model serving and inference system*
-
-<div align="center">
-  <a href="https://huggingface.co/spaces/leminhhung0101/SpeedLfmServing">
-    <img src="https://img.shields.io/badge/🤗%20Live%20Demo-Hugging%20Face-FFD21E?style=for-the-badge" alt="Hugging Face Demo"/>
-  </a>
-</div>
-
-**Stack:** `Python` `PyTorch` `Hugging Face` `Gradio`
-
-**Highlights:** Optimized LFM inference serving with a lightweight interface and public deployment on Hugging Face Spaces.
-
-**Demo:** 🤗 [Try it on Hugging Face](https://huggingface.co/spaces/leminhhung0101/SpeedLfmServing)
-
-<div align="center">
-  <a href="https://github.com/hungle2006/speedLfmServing/stargazers">
-    <img src="https://img.shields.io/github/stars/hungle2006/speedLfmServing?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-  </a>
-  <a href="https://github.com/hungle2006/speedLfmServing/forks">
-    <img src="https://img.shields.io/github/forks/hungle2006/speedLfmServing?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-  </a>
-</div>
-
----
-
-### 🧠 [BrainModel](https://github.com/hungle2006/BrainModel)
-
-*Deep learning framework for brain-related AI research and modeling*
-
-<img width="1191" height="542" alt="image" src="https://github.com/user-attachments/assets/5caf8dee-c47a-4ff5-8b4f-2dae320faad3" />
-
-**Stack:** `Python` `PyTorch` `Deep Learning` `Neural Networks` `Computer Vision`
-
-**Overview:**
-BrainModel is an AI/Deep Learning project focused on developing and experimenting with neural network models for brain-related applications. The project provides a foundation for model training, experimentation, and evaluation.
-
-**Highlights:**
-
-* 🧠 Deep learning models for brain-related data
-* ⚙️ PyTorch-based model development and training
-* 📊 Training and evaluation pipeline
-* 🔬 Designed for AI research and experimentation
-* 🚀 Modular structure for further model development and optimization
-
-**Focus:** `Brain AI` · `Deep Learning` · `Neural Networks` · `Model Training` · `AI Research`
-
-<div align="center">
-  <a href="https://github.com/hungle2006/BrainModel/stargazers">
-    <img src="https://img.shields.io/github/stars/hungle2006/BrainModel?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117" alt="GitHub Stars"/>
-  </a>
-  <a href="https://github.com/hungle2006/BrainModel/forks">
-    <img src="https://img.shields.io/github/forks/hungle2006/BrainModel?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117" alt="GitHub Forks"/>
-  </a>
-</div>
-
----
-
-
-
-## 🤝 Let's Connect
-
-Always happy to talk about ML research, model optimization, or collaborating on an open-source project.
-
-[![Email](https://img.shields.io/badge/-hungle06.01.01@gmail.com-58A6FF?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hungle06.01.01@gmail.com)
-
-**Thanks for stopping by — let's build intelligent systems together 🤖🚀**
+**Research · Build · Optimize · Deploy**
 
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:1F3A5F,100:0D1117&height=120&section=footer" width="100%"/>
