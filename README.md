@@ -2,665 +2,275 @@
 
 # LÊ MINH HÙNG
 
-### AI / ML Engineer · Computer Vision · Deep Learning · AI Systems
-
-<br/>
-
-<a href="https://github.com/hungle2006">
-  <img src="https://img.shields.io/badge/GitHub-hungle2006-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="https://huggingface.co/leminhhung0101">
-  <img src="https://img.shields.io/badge/Hugging%20Face-Models%20%26%20Demos-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-</a>
-<a href="mailto:hungle06.01.01@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-<br/><br/>
-
-> **Building intelligent systems from research ideas to efficient, deployable AI applications.**
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,cpp,opencv,sklearn,github,docker,linux,git" />
-
-</div>
-
----
-
-## 🧠 About
-
-I'm **Lê Minh Hùng**, an AI-focused developer working across **deep learning, computer vision, medical AI, 3D vision, NLP, multimodal systems, and efficient AI inference**.
-
-My projects are centered around one idea:
-
-```text
-Research
-   ↓
-Model Design
-   ↓
-Training
-   ↓
-Evaluation
-   ↓
-Optimization
-   ↓
-Efficient Inference
-   ↓
-Deployment
-```
-
-I enjoy turning research-oriented architectures into systems that are **measurable, optimized, reproducible, and practical**.
-
-### Currently interested in
-
-`Deep Learning` · `Computer Vision` · `Medical AI` · `3D Vision` · `LLM Systems` · `NLP` · `Multimodal AI` · `Model Optimization`
-
----
-
-# 🧭 AI Portfolio
-
-<div align="center">
-
-| 🧠 Medical AI | 👁️ Computer Vision | 🧊 3D Vision | 🤖 LLM / NLP |
-|:---:|:---:|:---:|:---:|
-| Brain MRI | Image Retrieval | 3D Gaussian Splatting | LFM Serving |
-| Knee MRI | Anomaly Detection | Mip-Splatting | Vietnamese NLP |
-| Lung Audio | Feature Matching | Neural View Synthesis | Hate Speech |
-| Diabetes AI | Representation Learning | Depth-guided Refinement | Transformer Models |
-
-</div>
-
----
-
-# ⭐ Featured Projects
-
-## 🧊 01 — 3D Gaussian Splatting & Neural View Synthesis
-
-My main computer-vision research direction focuses on **3D scene reconstruction and novel-view synthesis**.
-
-### `gaussian-splatting-LPIPS-Fine-tuning`
-
-**COLMAP → Depth Anything V2 → 3DGS → Pruning → LPIPS → Quantization**
-
-```text
-Images
-  │
-  ▼
-COLMAP
-  │
-  ├───────────────┐
-  │               │
-  ▼               ▼
-Camera Poses   Depth Anything V2
-  │               │
-  └───────┬───────┘
-          ▼
- Depth-guided Densification
-          │
-          ▼
-      3D Gaussian Splatting
-          │
-          ▼
-   Gaussian Refinement
-          │
-          ▼
- LPIPS Fine-tuning
-          │
-          ▼
-     Quantization
-          │
-          ▼
- Novel View Synthesis
-```
-
-**Focus**
-
-`COLMAP` `Depth Anything V2` `3DGS` `LPIPS` `Gaussian Pruning` `Quantization` `PSNR` `SSIM`
-
----
-
-### `Mip-Splatting-Fine-tuning`
-
-A more advanced NVS workflow combining **Mip-Splatting, depth-guided densification, pruning, appearance correction and perceptual fine-tuning**.
-
-```text
-COLMAP
-   ↓
-Depth Estimation
-   ↓
-Metric Alignment
-   ↓
-Depth-guided Densification
-   ↓
-Mip-Splatting
-   ↓
-Gaussian Pruning
-   ↓
-Appearance Optimization
-   ↓
-LPIPS Fine-tuning
-   ↓
-Quantization
-```
-
-**Why it matters**
-
-The project explores the trade-off between:
-
-- visual fidelity
-- Gaussian count
-- rendering quality
-- optimization stability
-- model size
-- inference efficiency
-
----
-
-### `OmniGS`
-
-A broader experimental direction around **high-quality Gaussian Splatting and scene reconstruction**, with emphasis on geometric refinement, adaptive optimization and efficient representation.
-
----
-
-# 🏥 02 — Medical AI
-
-A large part of my portfolio focuses on applying deep learning to **medical imaging and biomedical signals**.
-
-## `BrainModel`
-
-Deep-learning research framework for brain-related AI.
-
-**Core stack**
-
-`PyTorch` · `Computer Vision` · `Neural Networks` · `Model Training` · `Evaluation`
-
----
-
-## `Gold58-ConvNeXt2.5D`
-
-Study-level **multi-label knee MRI classification**.
-
-### Architecture
-
-```text
-MRI Study
-   │
-   ▼
-Protocol-aware Selection
-   │
-   ▼
-Uniform Slice Sampling
-   │
-   ▼
-2.5D Slice Construction
-   │
-   ▼
-ConvNeXtV2
-   │
-   ▼
-Feature Aggregation
-   │
-   ▼
-Multi-label Prediction
-```
-
-### Main ideas
-
-- 2.5D MRI representation
-- ConvNeXtV2 backbone
-- Study-level aggregation
-- Multi-label classification
-- Fixed validation subset
-- Efficient feature extraction
-
----
-
-## `knee-detection`
-
-A study-level knee MRI system exploring:
-
-`Multi-Instance Learning` · `Transformer Aggregation` · `MRI Feature Caching` · `Study-level Prediction`
-
-The project focuses on converting **multiple MRI slices and series into a single study-level decision**.
-
----
-
-## `Lung_Multi-taskLearning`
-
-AI pipeline for respiratory sound analysis.
-
-```text
-Lung Audio
-    │
-    ▼
-Audio Preprocessing
-    │
-    ▼
-Multi-task CNN
-    │
-    ├───────────────┐
-    ▼               ▼
-Crackle/Wheeze   Disease
-Detection        Classification
-    │               │
-    └───────┬───────┘
-            ▼
-        Explainability
-            │
-            ▼
-          Grad-CAM
-```
-
-**Focus**
-
-`Audio AI` · `Multi-task Learning` · `Attention` · `Prototype Learning` · `Grad-CAM`
-
----
-
-## `Diabetes-AI`
-
-Medical AI system exploring diabetes prediction using:
-
-`Retinal / Eye Data` + `Clinical Information` + `Machine Learning`
-
----
-
-# 👁️ 03 — Computer Vision
-
-## `Deep-Image-Retrieval-using-DINOv2-OpenCLIP-ConvNeXt-and-LightGlue`
-
-A hybrid image retrieval system combining **global semantic representations with local visual verification**.
-
-```text
-                  Query Image
-                       │
-        ┌──────────────┼──────────────┐
-        ▼              ▼              ▼
-      DINOv2         OpenCLIP       ConvNeXt
-        │              │              │
-        └──────────────┼──────────────┘
-                       ▼
-                 Feature Fusion
-                       │
-                       ▼
-                  Global Top-K
-                       │
-                       ▼
-            ┌──────────┴──────────┐
-            ▼                     ▼
-         LightGlue             Texture
-            │                     │
-            └──────────┬──────────┘
-                       ▼
-                   Re-ranking
-                       │
-                       ▼
-                  Final Results
-```
-
-### Representation stack
-
-`DINOv2` · `OpenCLIP` · `ConvNeXt` · `LightGlue` · `Texture Features`
-
-The important idea is to combine **semantic similarity** with **local geometric evidence** instead of relying on a single embedding.
-
----
-
-## `anomaly_3branch`
-
-Normal-only anomaly detection using three complementary feature branches.
-
-```text
-                 Normal Images
-                       │
-        ┌──────────────┼──────────────┐
-        ▼              ▼              ▼
-      DINOv2        ConvNeXt      WideResNet50
-        │              │              │
-        ▼              ▼              ▼
-     Global         Hierarchical     Patch-level
-     Features        Features        Features
-        │              │              │
-        └──────────────┼──────────────┘
-                       ▼
-                 Score Fusion
-                       │
-                       ▼
-                 Anomaly Score
-```
-
-**Focus**
-
-`DINOv2` · `ConvNeXt` · `PatchCore` · `Anomaly Detection`
-
----
-
-# 🇻🇳 04 — Vietnamese NLP
-
-## `VietnameseMulti-scale-CNN`
-
-A character-level Vietnamese language identification model designed for **real-world noisy text**.
-
-### Architecture
-
-```text
-Character Input
-      │
-      ▼
-Character Embedding
-      │
-      ▼
-Multi-scale CNN
- ┌────┼────┬────┐
- │    │    │    │
-3x3  5x5  7x7  11x11
- └────┼────┴────┘
-      ▼
-Residual Blocks
-      ▼
-Squeeze-and-Excitation
-      ▼
-Transformer Encoder
-      ▼
-Multi-Head Attention Pooling
-      ▼
-Angular Margin Loss
-      ▼
-Temperature Scaling
-      ▼
-Prediction
-```
-
-### Designed for noisy Vietnamese
-
-`Missing Diacritics` · `OCR Errors` · `Typos` · `Slang` · `Emoji` · `URLs` · `Mixed Language`
-
----
-
-## `R-ViHSDModel`
-
-Vietnamese hate-speech and text-noise classification.
-
-### Strategy
-
-```text
-Vietnamese Text
-       │
-       ├──────────────┐
-       ▼              ▼
-   ViSoBERT       Character TF-IDF
-       │              │
-       └──────┬───────┘
-              ▼
-       Base Predictions
-              │
-              ▼
-       OOF Stacking
-              │
-              ▼
-       Final Classifier
-```
-
-**Focus**
-
-`ViSoBERT` · `TF-IDF` · `Linear Models` · `OOF Stacking`
-
----
-
-# 🤖 05 — LLM Serving & Efficient AI
-
-## `lfm-serving`
-
-A lightweight LLM serving system built around **LFM inference with a public Hugging Face demo**.
-
-### System idea
-
-```text
-Request
-   │
-   ▼
-Prompt Processing
-   │
-   ▼
-Inference Engine
-   │
-   ▼
-LFM Model
-   │
-   ▼
-Streaming Response
-```
-
----
-
-## `speedLfmServing`
-
-A more performance-oriented direction for **high-efficiency LFM inference and serving**.
-
-```text
-Incoming Requests
-       │
-       ▼
-Prompt Normalization
-       │
-       ▼
-Request Scheduling
-       │
-       ▼
-Resource-aware Admission
-       │
-       ▼
-Efficient LLM Engine
-       │
-       ▼
-LFM Inference
-       │
-       ▼
-Response
-```
-
-### Main goals
-
-- Lower inference overhead
-- Efficient GPU utilization
-- Request scheduling
-- Lightweight serving
-- Practical deployment
-
----
-
-# 🚗 06 — Multimodal & Autonomous Systems
-
-## `Traffic_AV`
-
-Multimodal traffic understanding using both **visual and audio information**.
-
-```text
-Video ───────────────┐
-                     ├──► Feature Extraction
-Audio ───────────────┘
-                           │
-                           ▼
-                    CNN / Attention
-                           │
-                           ▼
-                      Transformer
-                           │
-                           ▼
-                   Scene Understanding
-```
-
-**Focus**
-
-`Audio-Visual Learning` · `CNN` · `Attention` · `Transformer` · `Traffic AI`
-
----
-
-# 🧩 Research Map
-
-<div align="center">
-
-```text
-                         AI / ML
-                           │
-        ┌──────────────────┼──────────────────┐
-        │                  │                  │
-        ▼                  ▼                  ▼
-    Medical AI        Computer Vision      NLP / LLM
-        │                  │                  │
-   ┌────┼────┐        ┌────┼────┐        ┌────┼────┐
-   │    │    │        │    │    │        │    │    │
- Brain Knee Lung   Retrieval 3DGS Anomaly ViSoBERT LFM  CNN
-   │    │    │        │    │    │        │    │    │
-   └────┴────┘        └────┴────┘        └────┴────┘
-        │                  │                  │
-        └──────────────────┼──────────────────┘
-                           ▼
-                   Efficient AI Systems
-                           │
-                 ┌─────────┼─────────┐
-                 ▼         ▼         ▼
-             Fine-tuning  Pruning  Quantization
-                 │         │         │
-                 └─────────┼─────────┘
-                           ▼
-                       Deployment
-```
-
-</div>
-
----
-
-# ⚙️ Tech Stack
-
-### Deep Learning
+### Artificial Intelligence Student · Computer Vision · Medical AI · 3D Vision · NLP · Efficient LLM Systems
 
 <p>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
+  <a href="https://github.com/hungle2006">
+    <img src="https://img.shields.io/badge/GitHub-hungle2006-181717?style=flat-square&logo=github&logoColor=white" />
+  </a>
+  <a href="https://huggingface.co/leminhhung0101">
+    <img src="https://img.shields.io/badge/Hugging%20Face-leminhhung0101-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+  </a>
+  <a href="mailto:hungle06.01.01@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white" />
+  </a>
 </p>
+
+</div>
+
+---
+
+## Academic Profile
+
+I am an Artificial Intelligence student with research and development interests spanning **computer vision, medical artificial intelligence, 3D vision, natural language processing, multimodal learning, and efficient large language model systems**.
+
+My work focuses on the design, implementation, and empirical evaluation of machine-learning systems for practical problems. Across projects, I am particularly interested in representation learning, robust evaluation, computational efficiency, multimodal modeling, and reproducible experimentation.
+
+My current technical interests include:
+
+* deep learning for medical imaging and biomedical signals;
+* visual representation learning and image retrieval;
+* anomaly detection and robust visual recognition;
+* 3D reconstruction, Gaussian Splatting, and novel-view synthesis;
+* Vietnamese natural language processing;
+* multimodal learning involving visual and audio information;
+* efficient inference and deployment of large language models;
+* model optimization, compression, and GPU-oriented serving.
+
+---
+
+## Research and Development Workflow
+
+My projects generally follow a structured experimental workflow:
+
+```text
+Problem Formulation
+        ↓
+Literature and Method Review
+        ↓
+Data Preparation
+        ↓
+Model Design and Implementation
+        ↓
+Training and Empirical Evaluation
+        ↓
+Error Analysis and Optimization
+        ↓
+Reproducible Documentation
+        ↓
+Deployment or Further Experimentation
+```
+
+The objective is not only to obtain strong predictive performance, but also to understand model behavior, identify failure modes, and develop implementations that can be reproduced and extended.
+
+---
+
+## Research Areas
+
+### Medical Artificial Intelligence
+
+Projects in this area investigate deep-learning methods for medical imaging, biomedical signals, and study-level clinical prediction.
+
+* **[Gold58-ConvNeXt2.5D](https://github.com/hungle2006/Gold58-ConvNeXt2.5D)**
+  Study-level knee MRI classification using 2.5D representations and ConvNeXt-based feature extraction.
+
+* **[knee-detection](https://github.com/hungle2006/knee-detection)**
+  Experiments on knee MRI analysis and study-level predictive modeling.
+
+* **[BrainModel](https://github.com/hungle2006/BrainModel)**
+  Deep-learning experiments for brain-related medical imaging.
+
+* **[Lung_Multi-taskLearning](https://github.com/hungle2006/Lung_Multi-taskLearning)**
+  Multi-task learning methods for respiratory and lung-sound analysis.
+
+* **[Diabetes-AI](https://github.com/hungle2006/Diabetes-AI)**
+  Artificial-intelligence methods for diabetes-related analysis using retinal/eye images and clinical information.
 
 ### Computer Vision
 
-<p>
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
-<img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white"/>
-<img src="https://img.shields.io/badge/COLMAP-3D%20Vision-black?style=flat-square"/>
-<img src="https://img.shields.io/badge/3DGS-Gaussian%20Splatting-purple?style=flat-square"/>
-</p>
+My computer-vision work focuses on visual representations, retrieval, anomaly detection, and robust feature modeling.
 
-### LLM / NLP
+* **[Deep-Image-Retrieval-using-DINOv2-OpenCLIP-ConvNeXt-and-LightGlue](https://github.com/hungle2006/Deep-Image-Retrieval-using-DINOv2-OpenCLIP-ConvNeXt-and-LightGlue)**
+  A hybrid image-retrieval framework combining global feature representations with local feature verification.
 
-<p>
-<img src="https://img.shields.io/badge/Transformers-FF6F00?style=flat-square"/>
-<img src="https://img.shields.io/badge/vLLM-Inference-blue?style=flat-square"/>
-<img src="https://img.shields.io/badge/QLoRA-Fine--tuning-green?style=flat-square"/>
-<img src="https://img.shields.io/badge/NLP-Vietnamese%20AI-orange?style=flat-square"/>
-</p>
+* **[anomaly_3branch](https://github.com/hungle2006/anomaly_3branch)**
+  Three-branch anomaly-detection experiments using complementary visual representations.
 
-### Engineering
+### 3D Vision and Novel-View Synthesis
 
-<p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
-<img src="https://img.shields.io/badge/Git-181717?style=flat-square&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-</p>
+This line of work explores neural scene representation, Gaussian Splatting, perceptual optimization, and novel-view synthesis.
+
+* **[Mip-Splatting-Fine-tuning](https://github.com/hungle2006/Mip-Splatting-Fine-tuning)**
+  Fine-tuning experiments for Mip-Splatting and novel-view synthesis.
+
+* **[gaussian-splatting-LPIPS-Fine-tuning](https://github.com/hungle2006/gaussian-splatting-LPIPS-Fine-tuning)**
+  3D Gaussian Splatting with perceptual fine-tuning and LPIPS-oriented evaluation.
+
+* **[OmniGS](https://github.com/hungle2006/OmniGS)**
+  Experimental work on Gaussian Splatting and 3D visual representation.
+
+### Natural Language Processing
+
+My NLP projects focus primarily on Vietnamese text modeling and robust classification.
+
+* **[VietnameseMulti-scale-CNN](https://github.com/hungle2006/VietnameseMulti-scale-CNN)**
+  Multi-scale character-level modeling for Vietnamese language understanding.
+
+* **[R-ViHSDModel](https://github.com/hungle2006/R-ViHSDModel)**
+  Vietnamese hate-speech classification with additional modeling of text-noise categories.
+
+### Large Language Model Systems
+
+These projects examine practical inference, serving, and computational optimization for language models.
+
+* **[speedLfmServing](https://github.com/hungle2006/speedLfmServing)**
+  Performance-oriented experiments for LFM serving, efficient inference, and GPU utilization.
+
+* **[lfm-serving](https://github.com/hungle2006/lfm-serving)**
+  LFM inference-serving and deployment experiments.
+
+### Multimodal Artificial Intelligence
+
+* **[Traffic_AV](https://github.com/hungle2006/Traffic_AV)**
+  Audio-visual modeling experiments for traffic and scene understanding.
 
 ---
 
-# 📊 GitHub Analytics
+## Selected Projects
 
-<div align="center">
+| Project                                                                                                                 | Research Area   | Primary Focus                                             |
+| ----------------------------------------------------------------------------------------------------------------------- | --------------- | --------------------------------------------------------- |
+| [Gold58-ConvNeXt2.5D](https://github.com/hungle2006/Gold58-ConvNeXt2.5D)                                                | Medical AI      | Knee MRI, 2.5D representation, multi-label classification |
+| [Deep Image Retrieval](https://github.com/hungle2006/Deep-Image-Retrieval-using-DINOv2-OpenCLIP-ConvNeXt-and-LightGlue) | Computer Vision | DINOv2, OpenCLIP, ConvNeXt, LightGlue                     |
+| [Mip-Splatting-Fine-tuning](https://github.com/hungle2006/Mip-Splatting-Fine-tuning)                                    | 3D Vision       | Gaussian Splatting, fine-tuning, novel-view synthesis     |
+| [R-ViHSDModel](https://github.com/hungle2006/R-ViHSDModel)                                                              | NLP             | Vietnamese hate speech and text-noise classification      |
+| [speedLfmServing](https://github.com/hungle2006/speedLfmServing)                                                        | LLM Systems     | Efficient inference, serving, GPU optimization            |
+| [Traffic_AV](https://github.com/hungle2006/Traffic_AV)                                                                  | Multimodal AI   | Audio-visual representation learning                      |
+
+---
+
+## Technical Competencies
+
+### Programming Languages
+
+`Python` · `C++` · `JavaScript`
+
+### Machine Learning and Deep Learning
+
+`PyTorch` · `TensorFlow` · `scikit-learn` · `Hugging Face Transformers`
+
+### Computer Vision
+
+`OpenCV` · `DINOv2` · `OpenCLIP` · `ConvNeXt` · `LightGlue`
+
+### 3D Vision and Reconstruction
+
+`3D Gaussian Splatting` · `Mip-Splatting` · `COLMAP` · `Depth Estimation`
+
+### Natural Language Processing and LLMs
+
+`Transformers` · `ViSoBERT` · `LFM` · `vLLM` · `QLoRA`
+
+### Engineering and Experimentation
+
+`CUDA` · `Linux` · `Git` · `Docker` · `Google Colab`
+
+---
+
+## Methodological Interests
+
+Across different application domains, I am particularly interested in the following methodological themes:
+
+**Representation Learning**
+Learning informative visual, textual, and multimodal representations that transfer effectively across downstream tasks.
+
+**Robust Evaluation**
+Designing validation procedures, error analyses, and evaluation protocols that provide reliable estimates of model performance.
+
+**Efficient Optimization**
+Improving computational efficiency through model compression, quantization, pruning, caching, and optimized inference.
+
+**Multimodal Modeling**
+Combining information from multiple modalities, including images, audio, clinical variables, and text.
+
+**Reproducibility**
+Structuring experiments, code, model checkpoints, and evaluation pipelines so that results can be reproduced and extended.
+
+**Deployment-Oriented AI**
+Bridging experimental models and practical inference systems with attention to latency, memory usage, and hardware efficiency.
+
+---
+
+## Project Index
+
+|  # | Repository                                                                                                                                                           | Area            | Main Focus          |
+| -: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- | ------------------- |
+| 01 | [Gold58-ConvNeXt2.5D](https://github.com/hungle2006/Gold58-ConvNeXt2.5D)                                                                                             | Medical AI      | Knee MRI            |
+| 02 | [R-ViHSDModel](https://github.com/hungle2006/R-ViHSDModel)                                                                                                           | NLP             | Hate Speech / Noise |
+| 03 | [knee-detection](https://github.com/hungle2006/knee-detection)                                                                                                       | Medical AI      | Knee MRI            |
+| 04 | [anomaly_3branch](https://github.com/hungle2006/anomaly_3branch)                                                                                                     | Computer Vision | Anomaly Detection   |
+| 05 | [hungle2006](https://github.com/hungle2006/hungle2006)                                                                                                               | Profile         | GitHub Profile      |
+| 06 | [BrainModel](https://github.com/hungle2006/BrainModel)                                                                                                               | Medical AI      | Brain Imaging       |
+| 07 | [speedLfmServing](https://github.com/hungle2006/speedLfmServing)                                                                                                     | LLM Systems     | LFM Serving         |
+| 08 | [lfm-serving](https://github.com/hungle2006/lfm-serving)                                                                                                             | LLM Systems     | LFM Inference       |
+| 09 | [VietnameseMulti-scale-CNN](https://github.com/hungle2006/VietnameseMulti-scale-CNN)                                                                                 | NLP             | Vietnamese NLP      |
+| 10 | [Mip-Splatting-Fine-tuning](https://github.com/hungle2006/Mip-Splatting-Fine-tuning)                                                                                 | 3D Vision       | NVS / 3DGS          |
+| 11 | [OmniGS](https://github.com/hungle2006/OmniGS)                                                                                                                       | 3D Vision       | Gaussian Splatting  |
+| 12 | [Deep-Image-Retrieval-using-DINOv2-OpenCLIP-ConvNeXt-and-LightGlue](https://github.com/hungle2006/Deep-Image-Retrieval-using-DINOv2-OpenCLIP-ConvNeXt-and-LightGlue) | Computer Vision | Image Retrieval     |
+| 13 | [gaussian-splatting-LPIPS-Fine-tuning](https://github.com/hungle2006/gaussian-splatting-LPIPS-Fine-tuning)                                                           | 3D Vision       | 3DGS / LPIPS        |
+| 14 | [Traffic_AV](https://github.com/hungle2006/Traffic_AV)                                                                                                               | Multimodal AI   | Audio + Vision      |
+| 15 | [Lung_Multi-taskLearning](https://github.com/hungle2006/Lung_Multi-taskLearning)                                                                                     | Medical AI      | Lung Audio          |
+| 16 | [Diabetes-AI](https://github.com/hungle2006/Diabetes-AI)                                                                                                             | Medical AI      | Diabetes AI         |
+
+---
+
+## GitHub Activity
+
+<p align="center">
 
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=hungle2006&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
 
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hungle2006&layout=compact&theme=tokyonight&hide_border=true" />
 
-<br/><br/>
+</p>
+
+<p align="center">
 
 <img src="https://streak-stats.demolab.com?user=hungle2006&theme=tokyonight&hide_border=true" />
 
-</div>
+</p>
 
 ---
 
-# 🏆 What I Like Building
+## Current Research Directions
 
-```text
-┌──────────────────────────────────────────────────────────┐
-│                                                          │
-│  🧠 Models that solve real problems                      │
-│                                                          │
-│  👁️ Vision systems that understand images & 3D scenes   │
-│                                                          │
-│  🏥 AI systems for healthcare                            │
-│                                                          │
-│  🤖 Efficient LLM inference                              │
-│                                                          │
-│  ⚡ Optimized training and deployment                    │
-│                                                          │
-│  🔬 Research ideas turned into working systems            │
-│                                                          │
-└──────────────────────────────────────────────────────────┘
-```
+My current work is concentrated around the intersection of:
+
+* **representation learning** for visual, medical, and multimodal data;
+* **reliable empirical evaluation** and systematic error analysis;
+* **3D scene representation** and novel-view synthesis;
+* **medical AI** for imaging and biomedical signals;
+* **efficient LLM inference and serving**;
+* **multimodal learning**;
+* **model compression and optimization**;
+* **deployment-oriented machine-learning systems**.
+
+I am particularly interested in projects that connect methodological research with reproducible implementations and practical system constraints.
 
 ---
 
-# 📌 Repository Highlights
+## Contact
 
-| Project | Area | Key Technologies |
-|:---|:---|:---|
-| **Gold58-ConvNeXt2.5D** | Medical AI | ConvNeXtV2 · MRI · Multi-label |
-| **R-ViHSDModel** | NLP | ViSoBERT · TF-IDF · OOF Stacking |
-| **knee-detection** | Medical AI | MRI · MIL · Transformer |
-| **anomaly_3branch** | Vision | DINOv2 · ConvNeXt · PatchCore |
-| **BrainModel** | Medical AI | PyTorch · Deep Learning |
-| **speedLfmServing** | LLM Systems | LFM · Serving · Optimization |
-| **lfm-serving** | LLM Systems | LFM · Hugging Face · Gradio |
-| **VietnameseMulti-scale-CNN** | NLP | CharCNN · Transformer |
-| **Mip-Splatting-Fine-tuning** | 3D Vision | Mip-Splatting · LPIPS |
-| **OmniGS** | 3D Vision | Gaussian Splatting |
-| **Deep-Image-Retrieval** | Vision | DINOv2 · CLIP · LightGlue |
-| **gaussian-splatting-LPIPS-Fine-tuning** | 3D Vision | 3DGS · Depth · LPIPS |
-| **Traffic_AV** | Multimodal AI | Audio · Vision · Transformer |
-| **Lung_Multi-taskLearning** | Medical AI | Audio · Multi-task Learning |
-| **Diabetes-AI** | Medical AI | Clinical + Vision |
+For research discussions, technical collaboration, or project-related communication:
 
----
-
-# 🔭 Current Direction
-
-I'm currently pushing my work toward:
-
-**Efficient AI → Better representations → Stronger evaluation → Practical deployment**
-
-Especially interested in:
-
-`3D Vision` · `Medical AI` · `Efficient LLM Serving` · `Multimodal Learning` · `Model Compression` · `AI Systems`
+* GitHub: [hungle2006](https://github.com/hungle2006)
+* Hugging Face: [leminhhung0101](https://huggingface.co/leminhhung0101)
+* Email: [hungle06.01.01@gmail.com](mailto:hungle06.01.01@gmail.com)
 
 ---
 
 <div align="center">
 
-### Let's build something intelligent. 🚀
-
-<br/>
-
-<a href="mailto:hungle06.01.01@gmail.com">
-  <img src="https://img.shields.io/badge/Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-<a href="https://github.com/hungle2006">
-  <img src="https://img.shields.io/badge/Explore%20My%20Repos-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-<br/><br/>
-
-**Research · Build · Optimize · Deploy**
+*Research-oriented development in computer vision, medical AI, 3D vision, NLP, multimodal learning, and efficient AI systems.*
 
 </div>
