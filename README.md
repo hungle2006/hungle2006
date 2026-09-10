@@ -203,6 +203,8 @@ Bridging experimental models and practical inference systems with attention to l
 
 ## Project Index
 
+> **Repository coverage:** 16 repositories currently identified for this profile.
+
 |  # | Repository                                                                                                                                                           | Area            | Main Focus          |
 | -: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- | ------------------- |
 | 01 | [Gold58-ConvNeXt2.5D](https://github.com/hungle2006/Gold58-ConvNeXt2.5D)                                                                                             | Medical AI      | Knee MRI            |
@@ -221,6 +223,8 @@ Bridging experimental models and practical inference systems with attention to l
 | 14 | [Traffic_AV](https://github.com/hungle2006/Traffic_AV)                                                                                                               | Multimodal AI   | Audio + Vision      |
 | 15 | [Lung_Multi-taskLearning](https://github.com/hungle2006/Lung_Multi-taskLearning)                                                                                     | Medical AI      | Lung Audio          |
 | 16 | [Diabetes-AI](https://github.com/hungle2006/Diabetes-AI)                                                                                                             | Medical AI      | Diabetes AI         |
+
+All repository names above link directly to their corresponding GitHub repositories.
 
 ---
 
