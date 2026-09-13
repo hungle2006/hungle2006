@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="170" viewBox="0 0 520 170">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#11111d"/>
+      <stop offset="100%" stop-color="#251f10"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="518" height="168" rx="7" fill="url(#bg)" stroke="#b7beca" stroke-width="1.2"/>
+
+  <g transform="translate(30,31)">
+    <path d="M2 2h14v17H2z" fill="none" stroke="#f6c344" stroke-width="2"/>
+    <path d="M5 19v4m8-4v4" stroke="#f6c344" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <text x="58" y="48" font-size="21" font-weight="700" fill="#f6c344">speedLfmServing</text>
+  <text x="30" y="105" font-size="14" fill="#d5e7ff">Optimized LLM serving with prefix affinity, reuse scoring,</text><text x="30" y="126" font-size="14" fill="#d5e7ff">request scheduling and efficient KV caching.</text>
+
+  <circle cx="38" cy="145" r="7" fill="#3b8bc2"/>
+  <text x="56" y="151" font-size="15" fill="#f6c344">Code</text>
+
+  <g transform="translate(180,135)" stroke="#f6c344" stroke-width="1.8" fill="none">
+    <path d="M10 1l2.7 5.5 6.1.9-4.4 4.2 1 6-5.4-2.9-5.4 2.9 1-6L1.2 7.4l6.1-.9z"/>
+  </g>
+  <text x="205" y="151" font-size="15" fill="#d5e7ff">1</text>
+
+  <g transform="translate(270,136)" stroke="#f6c344" stroke-width="1.8" fill="none">
+    <circle cx="4" cy="3" r="2.3"/>
+    <circle cx="4" cy="15" r="2.3"/>
+    <circle cx="16" cy="6" r="2.3"/>
+    <path d="M4 5.5v7M6 4h4c4 0 6 1 6 4"/>
+  </g>
+  <text x="298" y="151" font-size="15" fill="#d5e7ff">0</text>
+
+  <text x="435" y="151" font-size="12" fill="#8b9bb0">OPEN</text>
+</svg>
