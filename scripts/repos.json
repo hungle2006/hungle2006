@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Gold58-ConvNeXt2.5D",
+    "desc": "Study-level knee MRI classification using 2.5D ConvNeXtV2 for multi-label abnormality prediction.",
+    "category": "Medical AI"
+  },
+  {
+    "name": "knee-detection",
+    "desc": "Knee MRI analysis using ConvNeXt, DINOv2 and Transformer-based multiple-instance learning.",
+    "category": "Medical AI"
+  },
+  {
+    "name": "BrainModel",
+    "desc": "Brain MRI pipeline for tumor segmentation, classification, uncertainty estimation and explainable AI.",
+    "category": "Medical AI"
+  },
+  {
+    "name": "Lung_Multi-taskLearning",
+    "desc": "Multi-task respiratory-sound analysis with acoustic deep learning and LLM-assisted clinical reasoning.",
+    "category": "Medical AI"
+  },
+  {
+    "name": "Diabetes-AI",
+    "desc": "AI-assisted diabetes and diabetic-retinopathy analysis using retinal images and clinical information.",
+    "category": "Medical AI"
+  },
+  {
+    "name": "ICD10_Model",
+    "desc": "Vietnamese clinical NLP for NER, assertion classification, ICD-10 linking and RxNorm normalization.",
+    "category": "Clinical NLP"
+  },
+  {
+    "name": "Deep-Image-Retrieval-using-DINOv2-OpenCLIP-ConvNeXt-and-LightGlue",
+    "desc": "Hybrid image retrieval combining DINOv2, OpenCLIP, ConvNeXt and LightGlue for global-local matching.",
+    "category": "Computer Vision"
+  },
+  {
+    "name": "anomaly_3branch",
+    "desc": "Three-branch visual anomaly detection using DINOv2, ConvNeXt and PatchCore-style local scoring.",
+    "category": "Computer Vision"
+  },
+  {
+    "name": "Leaf_Disease",
+    "desc": "Plant disease classification with ConvNeXt, EfficientNet, attention modules and weighted ensemble fusion.",
+    "category": "Computer Vision"
+  },
+  {
+    "name": "OmniGS",
+    "desc": "Depth-guided 3D Gaussian Splatting for high-fidelity reconstruction and novel-view synthesis.",
+    "category": "3D Vision"
+  },
+  {
+    "name": "Mip-Splatting-Fine-tuning",
+    "desc": "Mip-Splatting fine-tuning with depth guidance, perceptual optimization, pruning and NVS evaluation.",
+    "category": "3D Vision"
+  },
+  {
+    "name": "gaussian-splatting-LPIPS-Fine-tuning",
+    "desc": "Automated 3D Gaussian Splatting with COLMAP, depth densification, LPIPS fine-tuning and evaluation.",
+    "category": "3D Vision"
+  },
+  {
+    "name": "R-ViHSDModel",
+    "desc": "Vietnamese hate-speech detection with ViSoBERT, TF-IDF, Linear SVM and out-of-fold stacking.",
+    "category": "NLP"
+  },
+  {
+    "name": "VietnameseMulti-scale-CNN",
+    "desc": "Robust Vietnamese language identification for noisy text using multi-scale CNNs and Transformers.",
+    "category": "NLP"
+  },
+  {
+    "name": "lfm-serving",
+    "desc": "Resource-aware LLM serving with vLLM, prefix analysis, admission control and KV-cache-aware scheduling.",
+    "category": "LLM Systems"
+  },
+  {
+    "name": "speedLfmServing",
+    "desc": "Optimized LLM serving with prefix affinity, reuse scoring, request scheduling and efficient KV caching.",
+    "category": "LLM Systems"
+  },
+  {
+    "name": "ARC",
+    "desc": "Adaptive ARC-AGI-2 reasoning with symbolic program synthesis, QLoRA, test-time transforms and routing.",
+    "category": "Reasoning / AGI"
+  },
+  {
+    "name": "Traffic_AV",
+    "desc": "Transformer-based multi-agent motion forecasting for autonomous driving with temporal-social attention.",
+    "category": "Autonomous Driving"
+  }
+]
