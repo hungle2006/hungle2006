@@ -30,7 +30,7 @@
     <circle cx="16" cy="6" r="2.3"/>
     <path d="M4 5.5v7M6 4h4c4 0 6 1 6 4"/>
   </g>
-  <text x="298" y="151" font-size="15" fill="#d5e7ff">0</text>
+  <text x="298" y="151" font-size="15" fill="#d5e7ff">1</text>
 
   <text x="435" y="151" font-size="12" fill="#8b9bb0">OPEN</text>
 </svg>
