@@ -13,8 +13,8 @@
     <path d="M5 19v4m8-4v4" stroke="#40a9ff" stroke-width="2" stroke-linecap="round"/>
   </g>
 
-  <text x="58" y="48" font-size="21" font-weight="700" fill="#40a9ff">Deep-Image-Retrieval-using-DINOv2-OpenCLIP-ConvNeXt-and-LightGlue</text>
-  <text x="30" y="105" font-size="14" fill="#d5e7ff">Hybrid image retrieval combining DINOv2, OpenCLIP,</text><text x="30" y="126" font-size="14" fill="#d5e7ff">ConvNeXt and LightGlue for global-local matching.</text>
+  <text x="58" y="48" font-size="21" font-weight="700" fill="#40a9ff">Deep-Image-Retrieval-using-</text><text x="58" y="75" font-size="21" font-weight="700" fill="#40a9ff">DINOv2-OpenCLIP-ConvNeXt-and-</text>
+  <text x="30" y="122" font-size="14" fill="#d5e7ff">Hybrid image retrieval combining DINOv2, OpenCLIP,</text><text x="30" y="143" font-size="14" fill="#d5e7ff">ConvNeXt and LightGlue for global-local matching.</text>
 
   <circle cx="38" cy="145" r="7" fill="#3b8bc2"/>
   <text x="56" y="151" font-size="15" fill="#40a9ff">Python</text>

@@ -14,7 +14,7 @@
   </g>
 
   <text x="58" y="48" font-size="21" font-weight="700" fill="#ff3d81">knee-detection</text>
-  <text x="30" y="105" font-size="14" fill="#d5e7ff">Knee MRI analysis using ConvNeXt, DINOv2 and</text><text x="30" y="126" font-size="14" fill="#d5e7ff">Transformer-based multiple-instance learning.</text>
+  <text x="30" y="105" font-size="14" fill="#d5e7ff">Knee MRI analysis using ConvNeXt, DINOv2 and Transformer-</text><text x="30" y="126" font-size="14" fill="#d5e7ff">based multiple-instance learning.</text>
 
   <circle cx="38" cy="145" r="7" fill="#3b8bc2"/>
   <text x="56" y="151" font-size="15" fill="#ff3d81">Python</text>
