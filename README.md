@@ -14,9 +14,21 @@ I am interested in **Medical AI, Computer Vision, 3D Vision, Natural Language Pr
 > Public projects are added automatically when created; cards, language, stars, forks and ordering refresh on the scheduled GitHub Action.
 
 <!-- AUTO-REPOS:START -->
-**26 public repositories**, automatically discovered and ordered by recent code activity.
+**28 public repositories**, automatically discovered and ordered by recent code activity.
 
 <table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/hungle2006/ball_robot">
+        <img src="./profile/cards/ball-robot.svg" width="100%" alt="ball_robot" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/hungle2006/cousera_tool">
+        <img src="./profile/cards/cousera-tool.svg" width="100%" alt="cousera_tool" />
+      </a>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/hungle2006/OMNI_SH90">
