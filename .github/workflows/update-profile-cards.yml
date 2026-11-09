@@ -1,9 +1,10 @@
-name: Update profile repository cards
+name: Sync public repositories to GitHub profile
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "23 0 * * *"
+    # Every hour; use minute 17 to avoid GitHub's top-of-hour queue.
+    - cron: "17 * * * *"
   push:
     branches: [main]
     paths:
@@ -13,32 +14,39 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-repositories-sync
+  cancel-in-progress: false
+
 jobs:
-  build:
+  sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
-      - name: Checkout
+      - name: Checkout profile repository
         uses: actions/checkout@v6
+        with:
+          persist-credentials: true
 
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
-      - name: Generate repository cards
+      - name: Discover repositories and generate README/cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_cards.py
 
-      - name: Commit updated cards
+      - name: Commit only when the profile actually changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/cards/*.svg
+          git add -A README.md profile/cards/
           if git diff --cached --quiet; then
-            echo "No changes."
+            echo "Already up to date: no commit required."
             exit 0
           fi
-          git commit -m "chore: update profile repository cards"
-          git push
+          git commit -m "chore(profile): auto-sync public repositories"
+          git push origin HEAD:main
