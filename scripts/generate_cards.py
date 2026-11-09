@@ -1,14 +1,24 @@
 #!/usr/bin/env python3
-import os, json, html, urllib.request
+"""Keep the profile README and SVG project cards in sync with public GitHub repositories."""
+import html
+import json
+import os
+import textwrap
 from pathlib import Path
+from urllib.parse import quote
+from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "profile" / "cards"
+OWNER = "hungle2006"
+TOKEN = os.getenv("GITHUB_TOKEN", "")
 OUT.mkdir(parents=True, exist_ok=True)
 
-repos = json.loads((ROOT / "scripts" / "repos.json").read_text(encoding="utf-8"))
-TOKEN = os.getenv("GITHUB_TOKEN", "")
-OWNER = "hungle2006"
+# Curated copy is optional: every public repository is discovered independently.
+CURATED = {
+    item["name"].casefold(): item
+    for item in json.loads((ROOT / "scripts" / "repos.json").read_text(encoding="utf-8"))
+}
 
 PALETTE = {
     "Medical AI": ("#ff3d81", "#141322"),
@@ -21,29 +31,48 @@ PALETTE = {
     "Autonomous Driving": ("#20d6ea", "#10252a"),
 }
 
-def api_get(repo):
-    url = f"https://api.github.com/repos/{OWNER}/{repo}"
-    headers = {"Accept":"application/vnd.github+json","User-Agent":"github-profile-card-generator"}
-    if TOKEN:
-        headers["Authorization"] = f"Bearer {TOKEN}"
-    req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=20) as r:
-        return json.load(r)
+def list_public_repositories():
+    """Fetch ALL pages, never silently shrink the profile if GitHub API fails."""
+    repos = []
+    page = 1
+    while True:
+        url = (
+            f"https://api.github.com/users/{OWNER}/repos"
+            f"?type=owner&sort=pushed&direction=desc&per_page=100&page={page}"
+        )
+        headers = {
+            "Accept": "application/vnd.github+json",
+            "User-Agent": "hungle2006-profile-sync",
+        }
+        if TOKEN:
+            headers["Authorization"] = f"Bearer {TOKEN}"
+        with urlopen(Request(url, headers=headers), timeout=30) as response:
+            batch = json.load(response)
+        if not isinstance(batch, list):
+            raise RuntimeError("GitHub repository API did not return a list")
+        repos.extend(batch)
+        if len(batch) < 100:
+            break
+        page += 1
+    public = [
+        r for r in repos
+        if (not r.get("private")) and r.get("name", "").casefold() != OWNER.casefold()
+    ]
+    public.sort(
+        key=lambda r: (
+            r.get("pushed_at") or r.get("created_at") or "",
+            r.get("created_at") or "",
+            r.get("name", "").casefold(),
+        ),
+        reverse=True,
+    )
+    return public
 
-def wrap_text(text, max_chars):
-    words = text.split()
-    lines, current = [], ""
-    for word in words:
-        test = word if not current else current + " " + word
-        if len(test) <= max_chars:
-            current = test
-        else:
-            if current:
-                lines.append(current)
-            current = word
-    if current:
-        lines.append(current)
-    return lines
+
+def wrap_text(value, max_chars):
+    return textwrap.wrap(str(value).replace("\n", " "), width=max_chars,
+                         break_long_words=True, break_on_hyphens=True)
+
 
 def safe_name(name):
     return "".join(c.lower() if c.isalnum() else "-" for c in name).strip("-")
@@ -111,12 +140,91 @@ def make_svg(item, meta):
   <text x="435" y="151" font-size="12" fill="#8b9bb0">OPEN</text>
 </svg>"""
 
-for item in repos:
-    try:
-        meta = api_get(item["name"])
-    except Exception as e:
-        print(f"Warning: {item['name']}: {e}")
-        meta = {"language":"Code","stargazers_count":0,"forks_count":0}
-    path = OUT / f"{safe_name(item['name'])}.svg"
-    path.write_text(make_svg(item, meta), encoding="utf-8")
-    print("generated", path)
+START_MARKER = "<!-- AUTO-REPOS:START -->"
+END_MARKER = "<!-- AUTO-REPOS:END -->"
+
+
+def refresh_readme(repos):
+    readme_path = ROOT / "README.md"
+    current = readme_path.read_text(encoding="utf-8")
+    rows = [
+        f"**{len(repos)} public repositories**, automatically discovered and ordered by recent code activity.",
+        "",
+        "<table>",
+    ]
+    for index in range(0, len(repos), 2):
+        rows.append("  <tr>")
+        for repo in repos[index:index + 2]:
+            name = repo["name"]
+            url = f"https://github.com/{OWNER}/{quote(name)}"
+            svg = f"./profile/cards/{safe_name(name)}.svg"
+            rows.extend([
+                '    <td width="50%" valign="top">',
+                f'      <a href="{html.escape(url, quote=True)}">',
+                f'        <img src="{html.escape(svg, quote=True)}" width="100%" alt="{html.escape(name, quote=True)}" />',
+                '      </a>',
+                '    </td>',
+            ])
+        if index + 1 == len(repos):
+            rows.append('    <td width="50%"></td>')
+        rows.append("  </tr>")
+    rows.append("</table>")
+    block = START_MARKER + "\n" + "\n".join(rows) + "\n" + END_MARKER
+
+    if START_MARKER in current and END_MARKER in current:
+        start = current.index(START_MARKER)
+        end = current.index(END_MARKER) + len(END_MARKER)
+        updated = current[:start] + block + current[end:]
+    else:
+        heading = "## 🚀 My Repositories"
+        footer = '\n---\n\n<div align="center">'
+        start = current.find(heading)
+        end = current.find(footer, start)
+        if start < 0 or end < 0:
+            raise RuntimeError("README.md is missing the expected project section; refusing to overwrite it.")
+        introduction = (
+            heading + "\n\n"
+            "> Public projects are added automatically when created; cards, language, stars, forks "
+            "and ordering refresh on the scheduled GitHub Action.\n\n"
+        )
+        updated = current[:start] + introduction + block + "\n" + current[end:]
+    if updated != current:
+        readme_path.write_text(updated, encoding="utf-8")
+        print(f"README.md updated with {len(repos)} repositories")
+    else:
+        print("README.md unchanged")
+
+
+def main():
+    repos = list_public_repositories()
+    if not repos:
+        raise RuntimeError("No public repositories returned; refusing to delete cards")
+    expected = set()
+    for meta in repos:
+        name = meta["name"]
+        custom = CURATED.get(name.casefold(), {})
+        item = {
+            "name": name,
+            "desc": custom.get("desc") or meta.get("description")
+                    or "Explore this repository's source code, documentation and updates.",
+            "category": custom.get("category") or "Other Projects",
+        }
+        filename = f"{safe_name(name)}.svg"
+        if filename in expected:
+            raise RuntimeError(f"Card filename collision: {filename}")
+        expected.add(filename)
+        svg = make_svg(item, meta)
+        path = OUT / filename
+        if not path.exists() or path.read_text(encoding="utf-8") != svg:
+            path.write_text(svg, encoding="utf-8")
+            print(f"updated {filename}")
+    refresh_readme(repos)
+    for path in OUT.glob("*.svg"):
+        if path.name not in expected:
+            path.unlink()
+            print(f"removed stale card {path.name}")
+    print(f"Profile synchronized: {len(repos)} public repositories.")
+
+
+if __name__ == "__main__":
+    main()
