@@ -19,37 +19,37 @@ I am interested in **Medical AI, Computer Vision, 3D Vision, Natural Language Pr
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://github.com/hungle2006/Pharmacy_app">
+        <img src="./profile/cards/pharmacy-app.svg" width="100%" alt="Pharmacy_app" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
       <a href="https://github.com/hungle2006/ball_robot">
         <img src="./profile/cards/ball-robot.svg" width="100%" alt="ball_robot" />
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/hungle2006/cousera_tool">
         <img src="./profile/cards/cousera-tool.svg" width="100%" alt="cousera_tool" />
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/hungle2006/OMNI_SH90">
         <img src="./profile/cards/omni-sh90.svg" width="100%" alt="OMNI_SH90" />
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/hungle2006/Note_App">
         <img src="./profile/cards/note-app.svg" width="100%" alt="Note_App" />
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/hungle2006/ADY">
         <img src="./profile/cards/ady.svg" width="100%" alt="ADY" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/hungle2006/Pharmacy_app">
-        <img src="./profile/cards/pharmacy-app.svg" width="100%" alt="Pharmacy_app" />
       </a>
     </td>
   </tr>
