@@ -19,20 +19,20 @@ I am interested in **Medical AI, Computer Vision, 3D Vision, Natural Language Pr
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/hungle2006/ADY">
-        <img src="./profile/cards/ady.svg" width="100%" alt="ADY" />
+      <a href="https://github.com/hungle2006/Pharmacy_app">
+        <img src="./profile/cards/pharmacy-app.svg" width="100%" alt="Pharmacy_app" />
       </a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/hungle2006/waste_robot">
-        <img src="./profile/cards/waste-robot.svg" width="100%" alt="waste_robot" />
+      <a href="https://github.com/hungle2006/ADY">
+        <img src="./profile/cards/ady.svg" width="100%" alt="ADY" />
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/hungle2006/Pharmacy_app">
-        <img src="./profile/cards/pharmacy-app.svg" width="100%" alt="Pharmacy_app" />
+      <a href="https://github.com/hungle2006/waste_robot">
+        <img src="./profile/cards/waste-robot.svg" width="100%" alt="waste_robot" />
       </a>
     </td>
     <td width="50%" valign="top">
