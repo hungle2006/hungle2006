@@ -17,7 +17,7 @@
   <text x="30" y="105" font-size="14" fill="#d5e7ff">Explore this repository&#x27;s source code, documentation and</text><text x="30" y="126" font-size="14" fill="#d5e7ff">updates.</text>
 
   <circle cx="38" cy="145" r="7" fill="#3b8bc2"/>
-  <text x="56" y="151" font-size="15" fill="#58a6ff">CSS</text>
+  <text x="56" y="151" font-size="15" fill="#58a6ff">C++</text>
 
   <g transform="translate(180,135)" stroke="#58a6ff" stroke-width="1.8" fill="none">
     <path d="M10 1l2.7 5.5 6.1.9-4.4 4.2 1 6-5.4-2.9-5.4 2.9 1-6L1.2 7.4l6.1-.9z"/>
