@@ -24,32 +24,32 @@ I am interested in **Medical AI, Computer Vision, 3D Vision, Natural Language Pr
       </a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/hungle2006/OMNI_SH90">
-        <img src="./profile/cards/omni-sh90.svg" width="100%" alt="OMNI_SH90" />
+      <a href="https://github.com/hungle2006/Pharmacy_app">
+        <img src="./profile/cards/pharmacy-app.svg" width="100%" alt="Pharmacy_app" />
       </a>
     </td>
   </tr>
   <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/hungle2006/OMNI_SH90">
+        <img src="./profile/cards/omni-sh90.svg" width="100%" alt="OMNI_SH90" />
+      </a>
+    </td>
     <td width="50%" valign="top">
       <a href="https://github.com/hungle2006/AGRIDELTA">
         <img src="./profile/cards/agridelta.svg" width="100%" alt="AGRIDELTA" />
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/hungle2006/Waste_App">
         <img src="./profile/cards/waste-app.svg" width="100%" alt="Waste_App" />
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/hungle2006/Note_App">
         <img src="./profile/cards/note-app.svg" width="100%" alt="Note_App" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/hungle2006/Pharmacy_app">
-        <img src="./profile/cards/pharmacy-app.svg" width="100%" alt="Pharmacy_app" />
       </a>
     </td>
   </tr>
